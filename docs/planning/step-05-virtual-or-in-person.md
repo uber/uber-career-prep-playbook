@@ -7,15 +7,17 @@
 
 ???+ info "Guidance"
 
-    === "Virtual"
-        - For inaugural cohorts, virtual programs may be easier to execute.
-        - Virtual formats allow you to engage a broader range of students and volunteers across different time zones, expanding the program's reach and a student's network.
-        - Consider virtual programs for their cost-efficiency, especially if budget is a concern for inaugural cohorts.
+    **Virtual**
 
-    === "In-Person"
-        - In-person benefits include targeting regional/specific schools, a pool of local participants, and genuine engagement and connections.
-        - In-person programs may incur higher costs due to expenses such as meals, snacks, room rentals, workshop supplies, in-person volunteer requirements, and commuting stipends.
-        - In-person programs may be more logistically difficult to plan.
+    - For inaugural cohorts, virtual programs may be easier to execute.
+    - Virtual formats allow you to engage a broader range of students and volunteers across different time zones, expanding the program's reach and a student's network.
+    - Consider virtual programs for their cost-efficiency, especially if budget is a concern for inaugural cohorts.
+
+    **In-Person**
+
+    - In-person benefits include targeting regional/specific schools, a pool of local participants, and genuine engagement and connections.
+    - In-person programs may incur higher costs due to expenses such as meals, snacks, room rentals, workshop supplies, in-person volunteer requirements, and commuting stipends.
+    - In-person programs may be more logistically difficult to plan.
 
 ???+ question "Considerations"
     - Can you afford the budget, space, and personnel for in-person?
