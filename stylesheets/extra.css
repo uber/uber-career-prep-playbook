@@ -1,0 +1,50 @@
+:root {
+  --md-primary-fg-color: #000000;
+  --md-primary-fg-color--light: #333333;
+  --md-primary-fg-color--dark: #000000;
+  --md-accent-fg-color: #09091A;
+}
+
+/* Nav tabs */
+.md-tabs {
+  background-color: #000000;
+}
+
+/* Admonition colour overrides for Action/Guidance/Considerations */
+.md-typeset .admonition.action,
+.md-typeset details.action {
+  border-color: #000000;
+}
+.md-typeset .action > .admonition-title,
+.md-typeset .action > summary {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.md-typeset .action > .admonition-title::before,
+.md-typeset .action > summary::before {
+  background-color: #000000;
+  -webkit-mask-image: var(--md-admonition-icon--tip);
+  mask-image: var(--md-admonition-icon--tip);
+}
+
+/* Step badges in planning pages */
+.step-badge {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Hero block on home page */
+.hero {
+  padding: 2rem 0 1rem;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
