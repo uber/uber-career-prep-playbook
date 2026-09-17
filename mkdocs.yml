@@ -1,0 +1,86 @@
+site_name: Uber Career Prep Playbook
+site_description: A strategy and execution playbook for building a Career Prep program that helps undergraduate engineering students enter the tech industry.
+site_url: https://uber.github.io/uber-career-prep-playbook/
+repo_url: https://github.com/uber/uber-career-prep-playbook
+repo_name: uber/uber-career-prep-playbook
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/uber-logo.png
+  favicon: assets/uber-logo.png
+  palette:
+    - scheme: default
+      primary: black
+      accent: custom
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: >
+  Licensed under <a href="https://github.com/uber/uber-career-prep-playbook/blob/main/LICENCE.md" target="_blank">Creative Commons Attribution 4.0 International</a>
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/uber/uber-career-prep-playbook
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Overview:
+    - What is UCP?: overview/what-is-ucp.md
+    - Program Goals: overview/program-goals.md
+  - Planning Your Program:
+    - planning/index.md
+    - Step 1 — Review Resources: planning/step-01-review-resources.md
+    - Step 2 — Engage Leadership: planning/step-02-engage-leadership.md
+    - Step 3 — Create Timeline: planning/step-03-create-timeline.md
+    - Step 4 — Confirm Core Team: planning/step-04-confirm-core-team.md
+    - Step 5 — Virtual or In-Person: planning/step-05-virtual-or-in-person.md
+    - Step 6 — Program Length: planning/step-06-program-length.md
+    - Step 7 — Cohort Size: planning/step-07-cohort-size.md
+    - Step 8 — Workshop Dates: planning/step-08-workshop-dates.md
+    - Step 9 — Budget: planning/step-09-budget.md
+    - Step 10 — Recruiting Strategy: planning/step-10-recruiting-strategy.md
+    - Step 11 — Curriculum: planning/step-11-curriculum.md
+    - Step 12 — Volunteer Plan: planning/step-12-volunteer-plan.md
+    - Step 13 — Comms for Core Team: planning/step-13-comms-core-team.md
+    - Step 14 — Comms for Participants: planning/step-14-comms-participants.md
+    - Step 15 — Program Execution: planning/step-15-execution.md
+    - Step 16 — Retrospective: planning/step-16-retrospective.md
+    - Step 17 — Alumni Network: planning/step-17-alumni-network.md
+  - Roles & Responsibilities:
+    - roles/index.md
+    - Core Program Team: roles/core-team.md
+    - Volunteer Roles: roles/volunteers.md
+  - Program Execution:
+    - execution/index.md
+    - Phase 1 — Selecting Fellows: execution/phase-1-selection.md
+    - Phase 2 — Workshops: execution/phase-2-workshops.md
+    - Phase 3 — Internship Outcomes: execution/phase-3-outcomes.md
+  - Resources: resources.md
