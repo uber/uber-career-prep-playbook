@@ -9,9 +9,7 @@ We believe that everyone has potential, but not everyone has access to opportuni
 There are 5 workshops hosted by Uber staff, which will cover both social and technical skills such as:
 
 - Engineering competencies
-
 - Communications
-
 - Negotiations
 
 There are five required technical practice assignments based on instruction from each workshop that will help prepare Fellows for their internship interviews.
@@ -25,49 +23,29 @@ The Mentor and Volunteer Lead owns all tasks, projects, and planning that are as
 This list of responsibilities includes but is not limited to:
 
 - Sourcing for volunteers
-
-  - Mentors
-
-  - Mock interviewers
-
-  - General session leads
-
+    - Mentors
+    - Mock interviewers
+    - General session leads
 - Cultivating and managing a volunteer community, fostering engagement and open communication.
-
 - Planning and scheduling Mentor onboarding training.
-
 - Assigning technical mentors for the cohort.
-
 - Providing mentors with workshop recaps.
-
 - Managing mock interview sourcing/scheduling for each workshop.
-
 - Tracking all aspects of mock interviews and homework submissions.
-
 - Tracking mentor and volunteer engagement rate via surveys and Slack.
-
 - Awarding Mentor badges
-
 - Liaises between Core Team, mentors, and fellows.
-
 - Co-hosts office hours with Technical Lead.
-
 - POC for mentor/volunteer questions on Slack.
 
 ## Qualifications 
 
 - Experience in the following areas:
-
-  - Organize and execute
-
-  - Communications
-
-  - Stakeholder management
-
-  - Community building and engagement
-
+    - Organize and execute
+    - Communications
+    - Stakeholder management
+    - Community building and engagement
 - Familiarity with the tech org structure and knowing which POC’s to connect with
-
 - Ability to pivot quickly and think outside of the box
 
 ## Responsibilities and Time Commitment
@@ -75,9 +53,7 @@ This list of responsibilities includes but is not limited to:
 The Mentor and Volunteer Lead will spend ~ 116 hours total over a span of 8-months throughout the program:
 
 - 35% time (~40 hours) “Phase 1” before the cohort starts with Workshop 1
-
 - 45% time (~52 hours) “Phase 2” once the cohort launches after Workshop 1
-
 - 20% time (~23 hours) “Phase 3” once the cohort ends after Workshop 5
 
 The estimated time commitments are based on a cohort of 10 students, and the total will fluctuate with cohort size. The breakdown of these hours is as follows:
@@ -101,31 +77,19 @@ The estimated time commitments are based on a cohort of 10 students, and the tot
 ## Mentor & Volunteer Lead Best Practices 
 
 - Be prepared to help put out fires during Mock Interview days
-
-  - Ex: I can’t reach my interviewer→ send them a slack (10 min grace period only)
-
-  - Ex: I can’t reach my candidate→ send them a discord (10 min grace period only)
-
-  - Ex: I can’t make my interview today.
-
-    - For Fellows: Reminder that same-day cancellations are not allowed and will not be rescheduled
-
-    - For Interviewer: ask interviewer to find you a sub OR ask if you can look at their cal for the following week and reschedule
-
-    - Only reschedule the interview ONCE. If either the interviewer or the candidate asks to reschedule TWICE, ask them to reschedule on their own at a time that works for them. The calendar invites are modifiable to both the candidate and the interviewer.
-
-    - Remind the candidate that mock interviews count toward final conversion scores
-
-    - Remind the interviewer that they need to submit feedback so Mentors can follow up with Fellows
+    - Ex: I can’t reach my interviewer→ send them a slack (10 min grace period only)
+    - Ex: I can’t reach my candidate→ send them a discord (10 min grace period only)
+    - Ex: I can’t make my interview today.
+        - For Fellows: Reminder that same-day cancellations are not allowed and will not be rescheduled
+        - For Interviewer: ask interviewer to find you a sub OR ask if you can look at their cal for the following week and reschedule
+        - Only reschedule the interview ONCE. If either the interviewer or the candidate asks to reschedule TWICE, ask them to reschedule on their own at a time that works for them. The calendar invites are modifiable to both the candidate and the interviewer.
+        - Remind the candidate that mock interviews count toward final conversion scores
+        - Remind the interviewer that they need to submit feedback so Mentors can follow up with Fellows
 
 ## General Best Practices for Volunteers
 
 - Volunteers needed at least 3 weeks before the day of the workshop
-
 - Provide sessions leads with previous year’s presentation and relevant feedback for reference
-
 - Schedule and host dry runs and briefs to prepare speakers
-
 - Add calendar holds as soon as speakers are confirmed
-
 - Send reminder to calendar holds 1 day before session

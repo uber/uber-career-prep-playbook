@@ -9,9 +9,7 @@ We believe that everyone has potential, but not everyone has access to opportuni
 There are 5 workshops hosted by Uber staff, which will cover both social and technical skills such as:
 
 - Engineering competencies
-
 - Communications
-
 - Negotiations
 
 There are five required technical practice assignments based on instruction from each workshop that will help prepare Fellows for their internship interviews.
@@ -23,21 +21,13 @@ Fellows will also be matched with a software engineering mentor for the duration
 Talent Acquisition Leads are chosen for their regional focus, expertise, approachability, and charisma. Serving as the initial point of contact, they maintain communication with the cohort from the initial interview acceptance through the final internship interviews. Their responsibilities include, but are not limited to:
 
 - Confirms/finalizes regional headcount with Recruiting Team and organizations.
-
 - Creates marketing materials and leads application marketing/tracking.
-
 - Secures technical/behavioral interviewers for all interviews.
-
 - Schedules/reschedules all interviews.
-
 - Sources applicants via university partnerships and target schools.
-
 - POC for recruiting questions on program Slack channels.
-
 - Follows up with fellows during interviews and extends offers.
-
 - Tracks competitor offers for metrics and industry insights.
-
 - Tracks company offers post-cohort and updates alumni tracker.
 
 This individual possesses inspiring personal and professional experiences, exemplifies Uber's values, and demonstrates an exceptional work ethic.
@@ -47,27 +37,18 @@ A full walkthrough of this person’s task list can be found [here.](../task-lis
 ## Qualifications
 
 - Must be part of the Uber University TA Team
-
 - Full-time at Uber (Preferred)
-
 - Familiarity with official Uber intern offer process
-
 - Able to commit to full duration of cohort and prep time
-
 - Willing to present workshops or find colleagues in TA to do so
-
 - Alignment with Uber Career Prep mission
-
 - Understanding of UCP program end-to-end (Preferred)
-
 - Public speaking skills
-
 - Good communication
 
 ## Responsibilities and Time Commitment 
 
 - Tasks highlighted in yellow may be completed with the support of a TA Coordinator.
-
 - ~436 hours over 8 month period
 
 | **Task** | **Time Breakdown** | **Time** |

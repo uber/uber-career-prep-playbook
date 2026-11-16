@@ -9,9 +9,7 @@ We believe that everyone has potential, but not everyone has access to opportuni
 There are 5 workshops hosted by Uber staff, which will cover both social and technical skills such as:
 
 - Engineering competencies
-
 - Communications
-
 - Negotiations
 
 Fellows will have four mandatory technical practice assignments, designed to enhance their interview readiness and based on the workshop curriculum.
@@ -23,27 +21,16 @@ In addition to other program components, Fellows will gain a software engineerin
 Technical Leads are chosen based on region, technical expertise, approachability, and charisma, along with a passion and patience for teaching. Serving as the main technical contact for the cohort, they attend all workshops and office hours and are responsible for delivering the regional technical curriculum, which includes but is not limited to:
 
 - Manages technical portion of cohort acceptance interview process:
-
-  - Questions bank
-
-  - Volunteer interview training
-
-  - Score cards/evaluation
-
-  - Reviews scores, makes recommendations/decisions
-
+    - Questions bank
+    - Volunteer interview training
+    - Score cards/evaluation
+    - Reviews scores, makes recommendations/decisions
 - Manages mock interview question bank/score cards.
-
 - Manages internship interview question bank/score cards.
-
 - Authors/hosts technical training for volunteers.
-
 - Authors/hosts 75-min technical sessions for fellows during each workshop.
-
 - Hosts 60-min office hours between workshops.
-
 - Answers technical questions (all channels).
-
 - Creates/maintains code sharing platform for assignments/access.
 
 This individual has an inspiring personal and professional history, aligns with Uber's values, and consistently shows a strong work ethic.
@@ -53,27 +40,16 @@ A full walkthrough of this person’s task list can be found [here.](../task-lis
 ## Qualifications
 
 - Technical background required (must know how to read and write code)
-
 - Must have completed the official “Hire the Uber Way” training
-
-  - Completion includes the shadow and reverse shadow requirement
-
-  - TA will be able to confirm completion of the training
-
+    - Completion includes the shadow and reverse shadow requirement
+    - TA will be able to confirm completion of the training
 - Experience interviewing at Uber (preferred)
-
 - L3-L5 preferred (due to time commitment required)
-
 - Minimum 6+ months at Uber full-time
-
 - Able to commit to participating for the full duration of the cohort and prep time (8-month program + 1-month advance prep)
-
 - Alignment with the mission of Uber Career Prep
-
 - Understanding of how the program works end-to-end
-
 - Public speaking skills
-
 - Good communication
 
 ## Responsibilities and Time Commitment 
@@ -101,47 +77,27 @@ These hours are broken down into the following categories:
 ## Regional Workshop Times
 
 - APAC
-
-  - Indian Standard Time (IST)
-
-    - 10:00AM-12:00PM- Part 1
-
-    - 12:00PM-1:00PM- Lunch Break
-
-    - 1:00PM-3:00PM Part 2
-
-  - Thurs/ Fri of the workshop
-
+    - Indian Standard Time (IST)
+        - 10:00AM-12:00PM- Part 1
+        - 12:00PM-1:00PM- Lunch Break
+        - 1:00PM-3:00PM Part 2
+    - Thurs/ Fri of the workshop
 - EMEA
-
-  - EMEA- Central European Time (CET)
-
-  - 9:00AM- 1:00PM
-
-  - Thurs/ Fri of the workshop
-
+    - EMEA- Central European Time (CET)
+    - 9:00AM- 1:00PM
+    - Thurs/ Fri of the workshop
 - NAMER/LATAM
-
-  - NAMER/LATAM- Pacific Time (PT)
-
-  - 8:00AM-12:00PM
-
-  - Thurs/ Fri of the workshop
-
-  - Workshop is every 7 weeks
-
-  - 5 total workshops (8 hours/workshop= 40 total hours over 8 months)
+    - NAMER/LATAM- Pacific Time (PT)
+    - 8:00AM-12:00PM
+    - Thurs/ Fri of the workshop
+    - Workshop is every 7 weeks
+    - 5 total workshops (8 hours/workshop= 40 total hours over 8 months)
 
 ## Resources
 
 - [Technical resources:](https://drive.google.com/drive/folders/1nikQ7YBCL3fuhMacp7B0cSpNdJON8cWC?usp=drive_link)
-
-  - [Cohort Selection Resources](https://drive.google.com/drive/u/0/folders/116gKlxT3VhFRFhA527F3UxdmQRbN) (interview questions, deck, tips, feedback forms)
-
-  - [Homework Resources](https://drive.google.com/drive/u/0/folders/1D3Xs49gzr1fhcqh90Y4ZzaUNGN5VLQZn) (assignments, solution guides, feedback forms)
-
-  - [Technical Session Decks](https://drive.google.com/drive/u/0/folders/1qZ1RTzQy_sm21F00K27AYkSEIeDRfhf-)
-
-  - [Mock Interview Resources](https://drive.google.com/drive/u/0/folders/1xOVUMpkMxSJj-P4R2ano5ZcA_4uHXdqu) (mock interview questions, feedback forms, training deck)
-
-  - [Technical Mentor Guide](https://docs.google.com/presentation/d/1oWpyiWMMr84Qnm3YhfDjJcMdNPJ_xV69xplPKnYSotM/edit?slide=id.g204bd21f250_0_0#slide=id.g204bd21f250_0_0)
+    - [Cohort Selection Resources](https://drive.google.com/drive/u/0/folders/116gKlxT3VhFRFhA527F3UxdmQRbN) (interview questions, deck, tips, feedback forms)
+    - [Homework Resources](https://drive.google.com/drive/u/0/folders/1D3Xs49gzr1fhcqh90Y4ZzaUNGN5VLQZn) (assignments, solution guides, feedback forms)
+    - [Technical Session Decks](https://drive.google.com/drive/u/0/folders/1qZ1RTzQy_sm21F00K27AYkSEIeDRfhf-)
+    - [Mock Interview Resources](https://drive.google.com/drive/u/0/folders/1xOVUMpkMxSJj-P4R2ano5ZcA_4uHXdqu) (mock interview questions, feedback forms, training deck)
+    - [Technical Mentor Guide](https://docs.google.com/presentation/d/1oWpyiWMMr84Qnm3YhfDjJcMdNPJ_xV69xplPKnYSotM/edit?slide=id.g204bd21f250_0_0#slide=id.g204bd21f250_0_0)

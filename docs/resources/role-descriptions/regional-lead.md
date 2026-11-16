@@ -9,9 +9,7 @@ We believe that everyone has potential, but not everyone has access to opportuni
 There are 5 workshops hosted by Uber staff, which will cover both social and technical skills such as:
 
 - Engineering competencies
-
 - Communications
-
 - Negotiations
 
 Fellows will have four mandatory technical practice assignments, designed to enhance their interview readiness and based on the workshop curriculum.
@@ -25,19 +23,12 @@ Regional Program Leads are chosen for their region, skills, accessibility, and c
 This person’s responsibilities include but are not limited to:
 
 - Manages program logistics, timeline, stakeholders, and budget.
-
 - Liaises between team and stakeholders.
-
 - Oversees Core Team execution.
-
 - Manages program timeline and milestones.
-
 - Authors/oversees program communications.
-
 - Confirms and creates workshop topics/agendas.
-
 - Identifies workshop speakers.
-
 - Reviews/implements workshop feedback.
 
 A full list of tasks and responsibilities can be found [here.](../task-lists/regional-program-lead.md)
@@ -45,17 +36,11 @@ A full list of tasks and responsibilities can be found [here.](../task-lists/reg
 ## Qualifications 
 
 - Proven experience in the following areas:
-
-  - Leadership
-
-  - Organize and execute
-
-  - Fearless and truthseeking
-
-  - Communications
-
-  - Stakeholder management
-
+    - Leadership
+    - Organize and execute
+    - Fearless and truthseeking
+    - Communications
+    - Stakeholder management
 - Public speaking skills
 
 ## Responsibilities and Time Commitment 
@@ -74,9 +59,6 @@ The Regional Program Lead will need to dedicate at least 50% time to this role a
 \*Core Program Team Members
 
 - [TA Lead](recruiting-lead.md)
-
 - [Mentor/Volunteer Lead](mentor-volunteer-lead.md)
-
 - [Technical Lead](technical-lead.md)
-
 - [MC](program-mc.md)
