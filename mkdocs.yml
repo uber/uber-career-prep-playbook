@@ -84,4 +84,22 @@ nav:
     - Phase 1 — Selecting Fellows: execution/phase-1-selection.md
     - Phase 2 — Workshops: execution/phase-2-workshops.md
     - Phase 3 — Internship Outcomes: execution/phase-3-outcomes.md
-  - Resources: resources.md
+  - Resources:
+    - Resources Overview: resources.md
+    - Role Descriptions:
+      - Regional Lead: resources/role-descriptions/regional-lead.md
+      - Program MC: resources/role-descriptions/program-mc.md
+      - Recruiting Lead: resources/role-descriptions/recruiting-lead.md
+      - Mentor and Volunteer Lead: resources/role-descriptions/mentor-volunteer-lead.md
+      - Technical Lead: resources/role-descriptions/technical-lead.md
+    - Task Lists:
+      - Regional Program Lead: resources/task-lists/regional-program-lead.md
+      - Recruiting Lead: resources/task-lists/recruiting-lead.md
+      - Mentor and Volunteer Lead: resources/task-lists/mentor-volunteer-lead.md
+      - Technical Lead: resources/task-lists/technical-lead.md
+    - Timelines and Checklists:
+      - Program Execution Checklist: resources/timelines-and-checklists/program-execution-checklist.md
+      - Program Timeline Overview: resources/timelines-and-checklists/program-timeline-overview.md
+    - Marketing and Communications:
+      - Marketing Checklist: resources/marketing-and-communications/marketing-checklist.md
+      - Communications Checklist: resources/marketing-and-communications/communications-checklist.md

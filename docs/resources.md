@@ -19,10 +19,10 @@ Documents outlining responsibilities for each core team role.
 
 | Role | Task List |
 |------|-----------|
-| Regional Program Lead | [View](https://drive.google.com/open?id=1Z2Z7_4r3gf0JjwwWxkjAdqByAfAgv56zibNsMAuvC8U) |
-| Recruiting Lead | [View](https://drive.google.com/open?id=1Uz9VdIub7hRHMZ8l4FrT-W8uXIq3y41wCUGpuaJaKrE) |
-| Technical Lead | [View](https://drive.google.com/open?id=146LH7NWERntiZKYWSl6IqOR-zV9mTvBnCxEa-10kW58) |
-| Mentor and Volunteer Lead | [View](https://drive.google.com/open?id=1-KmbVELTjsNa4iFzqPe_nySgKyAzsXTVPvJnUb4Lh9Q) |
+| Regional Program Lead | [View](resources/task-lists/regional-program-lead.md) |
+| Recruiting Lead | [View](resources/task-lists/recruiting-lead.md) |
+| Technical Lead | [View](resources/task-lists/technical-lead.md) |
+| Mentor and Volunteer Lead | [View](resources/task-lists/mentor-volunteer-lead.md) |
 
 ---
 
@@ -32,8 +32,8 @@ Documents detailing program milestones, execution steps, and schedules.
 
 | Document | Link |
 |----------|------|
-| Program Execution Checklist | [View](https://drive.google.com/open?id=19m9-yvEk7m5eUgP17DL69_cywh3_oaAGSCTJwnyqdIE) |
-| Program Timeline Overview | [View](https://drive.google.com/open?id=1lFWQQV86Mh3r5NZ6yJr2ZIOastyAYgvyoOw0Zj7Jgjg) |
+| Program Execution Checklist | [View](resources/timelines-and-checklists/program-execution-checklist.md) |
+| Program Timeline Overview | [View](resources/timelines-and-checklists/program-timeline-overview.md) |
 | Cohort Tracker | [View](https://drive.google.com/open?id=1IEYJ9hTatvv6veWRyeh2b_Ah_7l2SHboHTfMw0fZLHc) |
 
 ---
@@ -44,8 +44,8 @@ Strategies for promoting the program and communicating with participants and sta
 
 | Document | Link |
 |----------|------|
-| Marketing Checklist | [View](https://drive.google.com/open?id=1wNmkSIVBdQA3Getj106a19olyALh3erYPEmUUOK50WU) |
-| Communications Checklist | [View](https://drive.google.com/open?id=1om5bZRXkJVJIkkMfhoMg4ctw8boE5YJKpT5u5Hnp70I) |
+| Marketing Checklist | [View](resources/marketing-and-communications/marketing-checklist.md) |
+| Communications Checklist | [View](resources/marketing-and-communications/communications-checklist.md) |
 
 ---
 
@@ -66,11 +66,11 @@ Detailed outlines of responsibilities and qualifications for each program role.
 
 | Role | Description |
 |------|-------------|
-| Regional Lead | [View](https://drive.google.com/open?id=1LNHXyfNMX-1ysisq1pzUBv5gfTkGRORzOGjGRcrevi0) |
-| Program MC | [View](https://drive.google.com/open?id=1YlGOU4T7T5pZV0_vAor83Jzgad83Vix8LK2qEMS6k7o) |
-| Recruiting Lead | [View](https://drive.google.com/open?id=1To4bfrcWoVUPkVeuJhb3SCwQJUfxxFDfeOw0M7SO-7M) |
-| Mentor and Volunteer Lead | [View](https://drive.google.com/open?id=1sOCutu80oMP1Ny-5wcDWgXdc6S3yx9PpPTqAX5ccYzg) |
-| Technical Lead | [View](https://drive.google.com/open?id=1DYfwsq6TuU8pjfKbD2XZBFaDMx_pVQDwz7ZicDz5UKg) |
+| Regional Lead | [View](resources/role-descriptions/regional-lead.md) |
+| Program MC | [View](resources/role-descriptions/program-mc.md) |
+| Recruiting Lead | [View](resources/role-descriptions/recruiting-lead.md) |
+| Mentor and Volunteer Lead | [View](resources/role-descriptions/mentor-volunteer-lead.md) |
+| Technical Lead | [View](resources/role-descriptions/technical-lead.md) |
 
 ---
 
