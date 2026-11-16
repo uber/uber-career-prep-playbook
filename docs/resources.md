@@ -2,9 +2,6 @@
 
 All open-source templates, task lists, checklists, and trackers for the Uber Career Prep program.
 
-!!! note "Google Drive links"
-    The resources below currently link to Google Drive. These will be migrated to this repository over time.
-
 ---
 
 ## Program Templates
