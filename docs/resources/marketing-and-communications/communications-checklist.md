@@ -10,7 +10,7 @@ The program's essential milestones are created by planning backward from the int
 |  |  | Confirm milestone dates based on internship start and end dates |  |
 | 18 weeks before workshop 1 | 2 weeks | Marketing materials finalized<br>  • Tool for talent management recruiting<br> • Application<br> • Overview decks/ websites, etc. | • [Marketing materials](marketing-checklist.md) |
 | 17 weeks before workshop 1 | 1 day | Host recruiting open house | • Email to external partners announcing QA info session for interested students |
-| 15 weeks before workshop 1 | 1 month | Application launch | • LinkedIn post announcing applications are open (include assets from [marketing materials](marketing-checklist.md))<br> • [Comms to external partners announcing application opening](marketing-checklist.md) |
+| 15 weeks before workshop 1 | 1 month | Application launch | • LinkedIn post announcing applications are open (include assets from [marketing materials](marketing-checklist.md#asset-list))<br> • [Comms to external partners announcing application opening](marketing-checklist.md#external-partners-application-announcement) |
 | 12 weeks before workshop 1 | 1 week | Call for mentors | • First email call for volunteers for the program<br> • Focus on call for mentors and application reviewers |
 | 11 weeks before workshop 1 | 1 day | Application closes | • LinkedIn post stating application closes in 1 day<br> • Comms to external partners reminding students that applications close in 1 day |
 | 11 weeks before workshop 1 | 1 month - rolling basis | Application Review | • Email outlining the process, timelines, and expectations |
