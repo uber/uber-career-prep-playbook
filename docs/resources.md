@@ -76,9 +76,8 @@ Detailed outlines of responsibilities and qualifications for each program role.
 
 ## Application and Selection Trackers
 
-Spreadsheets used to manage the application and cohort selection process.
+Spreadsheet used to manage the application and cohort selection process.
 
 | Document | Link |
 |----------|------|
-| Application Process Tracker | [View](https://drive.google.com/open?id=1pBQr28bsZZkSilwfVTHrzJmk5Lkg65jjYv_DPPxWGwM) |
-| Cohort Selection Process Tracker | [View](https://drive.google.com/open?id=1e6RW0lv3E814GpjTwEkZ67fiHbzV4s4PpZDVcEV2FR8) |
+| Application and Selection Tracker | [View](https://docs.google.com/spreadsheets/d/18EpR1k7X4QeMgf0325QZHp4M-EaQ7pSsslQJLB0dLrU/edit?gid=0#gid=0) |
