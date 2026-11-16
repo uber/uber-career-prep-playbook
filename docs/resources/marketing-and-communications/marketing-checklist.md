@@ -1,7 +1,5 @@
 # Marketing Check List
 
-**Authors:** Julia Alberts  
-
 ## Key Copy
 
 - Program summary

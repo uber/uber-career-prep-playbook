@@ -1,7 +1,5 @@
 # Role Description: Technical Lead
 
-**Authors:** Julia Alberts, Emma Ziegellaub Eichler  
-
 ## UCP Overview
 
 Uber Career Prep (UCP) is an 8-month unpaid fellowship for undergraduate engineering students that brings transparency and raises visibility around the necessary steps to embark on a STEM career in tech.

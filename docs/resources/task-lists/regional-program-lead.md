@@ -1,8 +1,5 @@
 # Task List: Regional Program Lead
 
-**Authors:** Julia Alberts  
-**Contributing author:** Jael Zambrano  
-
 ## Program Logistics Planning Before Cohort Launches 
 
 Dedicate 4-6 months just to logistics and approvals planning before the cohort launches.

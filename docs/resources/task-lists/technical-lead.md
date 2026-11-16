@@ -1,8 +1,5 @@
 # Task List: Technical Lead
 
-**Authors:** Emma Ziegellaub Eichler  
-**Contributing author:** Julia Alberts  
-
 ## Timeline/ Task List 
 
 Ongoing Task

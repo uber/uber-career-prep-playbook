@@ -1,7 +1,5 @@
 # Program Timeline Overview
 
-**Authors:** Julia Alberts  
-
 The program's essential milestones are created by planning backward from the internship start date.
 
 | **Timeline** | **Duration** | **Milestone** |

@@ -1,7 +1,5 @@
 # Task List: Recruiting Lead
 
-**Authors:** Julia Alberts, Anne Marie Freeman  
-
 ## Before Application Launches
 
 ### Due Week of XXX

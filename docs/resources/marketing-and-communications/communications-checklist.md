@@ -1,8 +1,5 @@
 # Communications Check-List
 
-**Authors:** Julia Alberts  
-**Contributing author:** Jael Zambrano  
-
 The program's essential milestones are created by planning backward from the internship start date.
 
 | **Timeline** | **Duration** | **Milestone** | **Communication** |

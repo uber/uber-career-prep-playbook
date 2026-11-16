@@ -1,7 +1,5 @@
 # Task List: Mentor and Volunteer Lead
 
-**Authors:** Julia Alberts, Jael Zambrano  
-
 This document outlines the key tasks for the UCP Regional Mentor and Volunteer Lead, organized by program phase and workshop. The goal is to provide a clear, actionable, and easy-to-follow guide for all responsibilities.
 
 ## Phase 1: Before Cohort Launches

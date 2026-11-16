@@ -1,7 +1,5 @@
 # Program Execution Checklist
 
-**Authors:** Julia Alberts  
-
 ### Initial (One–Time) Responsibilities
 
 #### Cohort Kickoff
