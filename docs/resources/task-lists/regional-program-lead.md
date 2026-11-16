@@ -54,14 +54,14 @@ Review the Core Program Team roles and responsibilities and determine the headco
 - Suggested Core Program Team Role Overviews:
     - Regional Program Lead
         - Manages the overall program logistics, budget, comms, and speakers.
-    - [Technical Lead](https://docs.google.com/document/d/1bZjTz4Y-AG08SI-ZrzJoEHY38fdAkayT0EDGomSruJQ/edit?tab=t.0)
+    - [Technical Lead](../role-descriptions/technical-lead.md)
         - Drives progress on anything relating to the technical portion of the program.
         - They must know how to code and be comfortable presenting technical material.
-    - Mentors and Volunteers Lead
+    - [Mentors and Volunteers Lead](../role-descriptions/mentor-volunteer-lead.md)
         - Supports volunteering needs from beginning to end.
-    - [Recruiting Support](https://docs.google.com/document/d/1FsYzveuHPZppASBDmNrdtj0706DXWjAWzqFaAYnqCM8/edit?tab=t.0)
+    - [Recruiting Support](../role-descriptions/recruiting-lead.md)
         - Leads initial program promotion and assists with organizing interviews and offers.
-    - [Workshop MC](https://docs.google.com/document/d/1qftABZLyVhzsHkeVpdl-U9p2EzOythJsW0dHhWYg8ak/edit?tab=t.0) (Optional)
+    - [Workshop MC](../role-descriptions/program-mc.md) (Optional)
         - Acts as the host for all workshops and keeps speakers and fellows engaged and on-track.
 
 #### Considerations
