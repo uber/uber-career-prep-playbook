@@ -9,7 +9,7 @@ All open-source templates, task lists, checklists, and trackers for the Uber Car
 
 ## Program Templates
 
-[Open Source Templates Folder](https://drive.google.com/drive/u/0/folders/112nwlou-aKYxzL4XO7eHZOoPMRav_qCt){ .md-button }
+[Open Source Templates Folder](https://github.com/uber/uber-career-prep-playbook/tree/main/docs/resources){ .md-button }
 
 ---
 
@@ -56,7 +56,7 @@ Resources related to the program's educational content.
 
 | Document | Link |
 |----------|------|
-| Workshop Curriculum and Agendas | [View](https://drive.google.com/open?id=1z6xLtf_zoEoE2cuT0z1kfFHG3h8loHvwQzJADPxdDXQ) |
+| Workshop Curriculum and Agendas | [Download (.xlsx)](resources/curriculum/ucp-workshop-curriculum-and-agendas.xlsx) |
 | Technical Mentor Guide | [View](resources/technical-mentor-guide/index.md) |
 
 ---
@@ -81,4 +81,4 @@ Spreadsheet used to manage the application and cohort selection process.
 
 | Document | Link |
 |----------|------|
-| Application and Selection Tracker | [View](https://docs.google.com/spreadsheets/d/18EpR1k7X4QeMgf0325QZHp4M-EaQ7pSsslQJLB0dLrU/edit?gid=0#gid=0) |
+| Application and Selection Tracker | [Download (.xlsx)](resources/trackers/ucp-application-and-selection-tracker.xlsx) |
