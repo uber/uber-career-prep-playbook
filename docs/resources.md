@@ -57,7 +57,7 @@ Resources related to the program's educational content.
 | Document | Link |
 |----------|------|
 | Workshop Curriculum and Agendas | [View](https://drive.google.com/open?id=1z6xLtf_zoEoE2cuT0z1kfFHG3h8loHvwQzJADPxdDXQ) |
-| Technical Mentor Guide | [View](https://drive.google.com/open?id=1oWpyiWMMr84Qnm3YhfDjJcMdNPJ_xV69xplPKnYSotM) |
+| Technical Mentor Guide | [View](resources/technical-mentor-guide/index.md) |
 
 ---
 

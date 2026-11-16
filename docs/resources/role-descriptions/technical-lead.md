@@ -100,4 +100,4 @@ These hours are broken down into the following categories:
     - [Homework Resources](https://drive.google.com/drive/u/0/folders/1D3Xs49gzr1fhcqh90Y4ZzaUNGN5VLQZn) (assignments, solution guides, feedback forms)
     - [Technical Session Decks](https://drive.google.com/drive/u/0/folders/1qZ1RTzQy_sm21F00K27AYkSEIeDRfhf-)
     - [Mock Interview Resources](https://drive.google.com/drive/u/0/folders/1xOVUMpkMxSJj-P4R2ano5ZcA_4uHXdqu) (mock interview questions, feedback forms, training deck)
-    - [Technical Mentor Guide](https://docs.google.com/presentation/d/1oWpyiWMMr84Qnm3YhfDjJcMdNPJ_xV69xplPKnYSotM/edit?slide=id.g204bd21f250_0_0#slide=id.g204bd21f250_0_0)
+    - [Technical Mentor Guide](../technical-mentor-guide/index.md)
