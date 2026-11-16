@@ -65,7 +65,7 @@
 > Regional PgM Lead:
 
 - Send welcome email to cohort and CC mentors
-    - [Include Welcome Deck](https://docs.google.com/presentation/d/16WbrE3-ttmswPstB2r7wDiM6-gUv3WG2Wl14EV_QOZ8/edit#slide=id.g2682e372091_0_0) in fellow email as a way to confirm application
+    - [Include Welcome Deck](../welcome-deck/index.md) in fellow email as a way to confirm application
 - Email volunteer channels with an update on total number for the cohort and the bios of Fellows once cohort is confirmed
 - Order SWAG for the year
 - Manage budget

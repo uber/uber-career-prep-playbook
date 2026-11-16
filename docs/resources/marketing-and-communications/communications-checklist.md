@@ -16,7 +16,7 @@ The program's essential milestones are created by planning backward from the int
 | 11 weeks before workshop 1 | 1 month - rolling basis | Application Review | • Email outlining the process, timelines, and expectations |
 | 10 weeks before workshop 1 | 2 weeks- rolling basis | Cohort Interview Scheduling | • Email to candidates to confirm interviewing time |
 | 8 weeks before workshop 1 | 2 weeks | Cohort Interviews | • Respond/send emails as needed for smooth candidate process |
-| 6 weeks before workshop 1 | 2 days | Cohort Acceptances - Invites via Welcome Deck | • Celebratory email to Fellows who made it into the cohort<br> • Include the [Welcome Deck](https://docs.google.com/presentation/d/1p0Ck2sc3Vdr1iyHIEYMfXfNItvouTwQwZSmqLcRRGnk/edit?slide=id.gfa414b3dd9_0_56#slide=id.gfa414b3dd9_0_56) as their way of accepting a spot in the program<br> • Include technical practice assignment 0<br> • Rejection emails to other candidates |
+| 6 weeks before workshop 1 | 2 days | Cohort Acceptances - Invites via Welcome Deck | • Celebratory email to Fellows who made it into the cohort<br> • Include the [Welcome Deck](../welcome-deck/index.md) as their way of accepting a spot in the program<br> • Include technical practice assignment 0<br> • Rejection emails to other candidates |
 | 6 weeks before workshop 1 | 1 month | Technical practice assignment 0 Assigned |  |
 | 6 weeks before workshop 1 | 1 day | Update volunteers /stakeholders with new cohort acceptances and share Welcome Deck! | • Email to volunteers and stakeholders announcing finalized cohort |
 | 6 weeks before workshop 1 | 1 week | Call for Volunteers for Workshop 1<br> - Mock interviewers<br> - Session leads | • Call for volunteers |

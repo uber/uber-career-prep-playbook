@@ -46,6 +46,7 @@ Strategies for promoting the program and communicating with participants and sta
 |----------|------|
 | Marketing Checklist | [View](resources/marketing-and-communications/marketing-checklist.md) |
 | Communications Checklist | [View](resources/marketing-and-communications/communications-checklist.md) |
+| Welcome Deck | [View](resources/welcome-deck/index.md) |
 
 ---
 
