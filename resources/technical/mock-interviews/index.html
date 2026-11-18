@@ -1,0 +1,6510 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A strategy and execution playbook for building a Career Prep program that helps undergraduate engineering students enter the tech industry.">
+      
+      
+      
+        <link rel="canonical" href="https://uber.github.io/uber-career-prep-playbook/resources/technical/mock-interviews/">
+      
+      
+        <link rel="prev" href="../assignments/assignment-4-solution/">
+      
+      
+        <link rel="next" href="../peer-mock-interviews/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Mock Interviews - Uber Career Prep Playbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mock-interviews" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Uber Career Prep Playbook" class="md-header__button md-logo" aria-label="Uber Career Prep Playbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Uber Career Prep Playbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mock Interviews
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/uber/uber-career-prep-playbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    uber/uber-career-prep-playbook
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../overview/what-is-ucp/" class="md-tabs__link">
+          
+  
+  
+  Overview
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planning/" class="md-tabs__link">
+          
+  
+  
+  Planning Your Program
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../roles/" class="md-tabs__link">
+          
+  
+  
+  Roles & Responsibilities
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../execution/" class="md-tabs__link">
+          
+  
+  
+  Program Execution
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Uber Career Prep Playbook" class="md-nav__button md-logo" aria-label="Uber Career Prep Playbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Uber Career Prep Playbook
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/uber/uber-career-prep-playbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    uber/uber-career-prep-playbook
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/what-is-ucp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What is UCP?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/program-goals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Goals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planning Your Program
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planning Your Program
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planning Your Program
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-01-review-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 1 — Review Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-02-engage-leadership/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 2 — Engage Leadership
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-03-create-timeline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 3 — Create Timeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-04-confirm-core-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 4 — Confirm Core Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-05-virtual-or-in-person/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 5 — Virtual or In-Person
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-06-program-length/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 6 — Program Length
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-07-cohort-size/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 7 — Cohort Size
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-08-workshop-dates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 8 — Workshop Dates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-09-budget/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 9 — Budget
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-10-recruiting-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 10 — Recruiting Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-11-curriculum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 11 — Curriculum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-12-volunteer-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 12 — Volunteer Plan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-13-comms-core-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 13 — Comms for Core Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-14-comms-participants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 14 — Comms for Participants
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-15-execution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 15 — Program Execution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-16-retrospective/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 16 — Retrospective
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-17-alumni-network/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 17 — Alumni Network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles & Responsibilities
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Roles & Responsibilities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles &amp; Responsibilities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/core-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Program Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/volunteers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Volunteer Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Execution
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Program Execution
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../execution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Execution Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../execution/phase-1-selection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 1 — Selecting Fellows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../execution/phase-2-workshops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 2 — Workshops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../execution/phase-3-outcomes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 3 — Internship Outcomes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Role Descriptions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Role Descriptions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/regional-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regional Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/program-mc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program MC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/recruiting-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recruiting Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/mentor-volunteer-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mentor and Volunteer Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/technical-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task Lists
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Task Lists
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../task-lists/regional-program-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regional Program Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../task-lists/recruiting-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recruiting Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../task-lists/mentor-volunteer-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mentor and Volunteer Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../task-lists/technical-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Timelines and Checklists
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Timelines and Checklists
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../timelines-and-checklists/program-execution-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Execution Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../timelines-and-checklists/program-timeline-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Timeline Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marketing and Communications
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Marketing and Communications
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing-and-communications/marketing-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marketing Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing-and-communications/communications-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communications Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../welcome-deck/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome Deck
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../technical-mentor-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Mentor Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Technical Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cohort-selection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cohort Selection Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_8_3" id="__nav_6_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Session Decks
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Technical Session Decks
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/workshop-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop 1: Array & String
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/workshop-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop 2: Linked List & Tree
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/workshop-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop 3: Graph & Data Structure Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/workshop-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop 4: 10% & Studying
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_8_4" id="__nav_6_8_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Practice Assignments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Practice Assignments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../practice-assignments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../practice-assignment-scorecards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scorecards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 0: Arrays, Strings, & Hashing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 1: Arrays & Strings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 2: Linked Lists & Trees
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 3: Graphs & Data Structure Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 4: Tries & Repeated Computation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-0-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-1-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-2-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-3-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-4-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_8_5" id="__nav_6_8_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mock Interviews
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mock Interviews
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mock Interviews
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mock Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-interviewers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips for Interviewers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-1-hashing-arrays-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop 1: Hashing, Arrays, &amp; Strings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop 1: Hashing, Arrays, &amp; Strings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-element-occurring-k-times-in-an-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Element Occurring K Times in an Array
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="First Element Occurring K Times in an Array">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-elements-in-a-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing Elements in a Range
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Missing Elements in a Range">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almost-optimal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Almost Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pangrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pangrams
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pangrams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isomorphic-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Isomorphic Strings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Isomorphic Strings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-2-two-pointer-sorting-searching-arrays-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop 2: Two-Pointer, Sorting, &amp; Searching Arrays &amp; Strings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop 2: Two-Pointer, Sorting, &amp; Searching Arrays &amp; Strings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subarrays-of-size-k-containing-duplicates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subarrays of Size K Containing Duplicates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subarrays of Size K Containing Duplicates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#max-stock-profit-with-single-buysell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Max Stock Profit with Single Buy/Sell
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Max Stock Profit with Single Buy/Sell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-of-triplets-with-zero-sum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Number of Triplets with Zero Sum
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Number of Triplets with Zero Sum">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#max-meetings-in-a-room" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Max Meetings in a Room
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Max Meetings in a Room">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-3-linked-lists-trees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop 3: Linked Lists &amp; Trees
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop 3: Linked Lists &amp; Trees">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reverse-linked-list-in-groups-of-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Linked List in Groups of k
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reverse Linked List in Groups of k">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#max-height-of-a-binary-tree" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Max Height of a Binary Tree
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Max Height of a Binary Tree">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-of-nodes-within-k-distance-of-root" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Number of Nodes within K Distance of Root
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Number of Nodes within K Distance of Root">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#better" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Better
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#median-of-a-sorted-linked-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Median of a Sorted Linked List
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Median of a Sorted Linked List">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-4-graphs-data-structure-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop 4: Graphs &amp; Data Structure Selection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop 4: Graphs &amp; Data Structure Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#count-paths-between-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Count Paths Between Nodes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Count Paths Between Nodes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#topping-possibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Topping Possibilities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Topping Possibilities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-forceoptimal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force/Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alien-dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alien Dictionary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alien Dictionary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reorganize-array-without-adjacent-duplicates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reorganize Array without Adjacent Duplicates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reorganize Array without Adjacent Duplicates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bad
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peer-mock-interviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peer Mock Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mock-interview-scorecards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scorecards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-interviewers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips for Interviewers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-1-hashing-arrays-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop 1: Hashing, Arrays, &amp; Strings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop 1: Hashing, Arrays, &amp; Strings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-element-occurring-k-times-in-an-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Element Occurring K Times in an Array
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="First Element Occurring K Times in an Array">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-elements-in-a-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing Elements in a Range
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Missing Elements in a Range">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almost-optimal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Almost Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pangrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pangrams
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pangrams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isomorphic-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Isomorphic Strings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Isomorphic Strings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-2-two-pointer-sorting-searching-arrays-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop 2: Two-Pointer, Sorting, &amp; Searching Arrays &amp; Strings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop 2: Two-Pointer, Sorting, &amp; Searching Arrays &amp; Strings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subarrays-of-size-k-containing-duplicates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subarrays of Size K Containing Duplicates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subarrays of Size K Containing Duplicates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#max-stock-profit-with-single-buysell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Max Stock Profit with Single Buy/Sell
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Max Stock Profit with Single Buy/Sell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-of-triplets-with-zero-sum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Number of Triplets with Zero Sum
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Number of Triplets with Zero Sum">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#max-meetings-in-a-room" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Max Meetings in a Room
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Max Meetings in a Room">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-3-linked-lists-trees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop 3: Linked Lists &amp; Trees
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop 3: Linked Lists &amp; Trees">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reverse-linked-list-in-groups-of-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Linked List in Groups of k
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reverse Linked List in Groups of k">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#max-height-of-a-binary-tree" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Max Height of a Binary Tree
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Max Height of a Binary Tree">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-of-nodes-within-k-distance-of-root" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Number of Nodes within K Distance of Root
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Number of Nodes within K Distance of Root">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#better" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Better
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#median-of-a-sorted-linked-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Median of a Sorted Linked List
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Median of a Sorted Linked List">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-4-graphs-data-structure-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop 4: Graphs &amp; Data Structure Selection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop 4: Graphs &amp; Data Structure Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#count-paths-between-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Count Paths Between Nodes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Count Paths Between Nodes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#topping-possibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Topping Possibilities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Topping Possibilities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-forceoptimal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force/Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alien-dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alien Dictionary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alien Dictionary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reorganize-array-without-adjacent-duplicates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reorganize Array without Adjacent Duplicates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reorganize Array without Adjacent Duplicates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brute-force_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brute Force
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bad
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/uber/uber-career-prep-playbook/edit/main/docs/resources/technical/mock-interviews.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="mock-interviews">Mock Interviews<a class="headerlink" href="#mock-interviews" title="Permanent link">&para;</a></h1>
+<p>Resources for volunteers who run the technical mock interviews: tips for interviewers and the question bank for each workshop, with solutions.</p>
+<h2 id="directions">Directions<a class="headerlink" href="#directions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Select one of the questions from the current workshop to use during your mock interview.</li>
+<li>If your candidate finishes early, choose another question from the current workshop.</li>
+<li>If the current workshop has multiple topics, rotate between the topics when choosing additional questions to give the candidate exposure to more question types.</li>
+<li><strong>Do not</strong> ask any questions besides those listed for the current workshop. This will help us calibrate between the Fellows, enable their mentors to provide better feedback on the interview, and ensure the questions are appropriate to their current level.</li>
+<li>Submit the feedback form (scorecard) <strong>immediately</strong> after the mock interview. There are different scorecards for each workshop. The scorecard is also linked in your calendar invite.</li>
+</ul>
+<h2 id="tips-for-interviewers">Tips for Interviewers<a class="headerlink" href="#tips-for-interviewers" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Do the problems ahead of time!</li>
+<li>Give your candidate an example of an input and the correct solution.</li>
+<li>Answer clarifying questions. If the problem doesn’t say, feel free to decide what you want and go with it!</li>
+<li>Nervous or overeager candidates tend to jump right into coding or trying to write something down. If this happens, ask your candidate to talk through their ideas first.</li>
+<li>If your candidate is quiet, ask them to talk through their ideas aloud. If there’s a silence of more than a couple of minutes, get your candidate talking again.</li>
+<li>That said, give your candidate time to think. This is one of the hardest parts of being an interviewer – there are often a lot of pauses and it can be awkward or painful. Two minutes of quiet can feel like a very long time.</li>
+<li>If you’re not sure if the candidate is stuck or just thinking and quiet, ask your candidate to explain what they’re thinking. This will help you avoid giving premature or unnecessary hints.</li>
+<li>If the candidate is making progress, stay quiet. Sometimes it’s also hard to keep your mouth shut, and it can feel weird to sit there and observe in silence, but when the candidate is excelling, the interviewer does very little talking!</li>
+<li>Take notes! <em>Note things that go well and poorly so you can give feedback afterwards without interrupting the flow or atmosphere of the interview.</em> Also write down how long the candidate spends on each part (developing the initial algorithm, translating it into code, testing, etcetera) to understand where they struggle and excel.</li>
+<li>Encourage the candidate to work through examples by hand and/or draw an illustration of the problem if they’re confused or stuck.</li>
+<li>Brainstorm “little hints”, “medium hints”, and “big hints” you can give if the candidate gets stuck. “Little hints” tend to be open-ended (i.e., “how would you do this problem if you were solving it by hand?”) while “big hints” point the candidate to the correct algorithm (i.e., “what would happen if you used data structure X instead of data structure Y?) While “medium hints” unsurprisingly are somewhere in the middle (for example, they might indicate the area in which you want to make a change without giving away the specific change, such as “is there another data structure you could use instead?”).</li>
+<li>If they’re stuck, help them talk about their thoughts so far before giving a hint. Often talking through the problem will get an candidate unstuck without any hints by acting as a “rubber duck.” Questions like “and then what?” or “what about when…?” without bringing in any new information are often sufficient to keep the ideas and words flowing.</li>
+<li>If you do have to give hints, give them one at a time, in increasing order of specificity (i.e., start with a “small hint” and only work up to a “big hint” if the candidate is still stuck and running out of time). Leave plenty of space between the hints to give the candidate time to work with them.</li>
+<li>Keep track of the time! When time is almost up, tell your candidate you’re almost out of time, and ask them to wrap up their solution as best as possible, such as by explaining what they would do if they had more time. It helps you get a sense of how their thinking has progressed and creates a better experience for them.</li>
+<li><strong>Stay in character until the interview is over! You’re the interviewer, not a peer or teacher. The best mocks are the ones that most closely replicate a true interview.</strong></li>
+<li><strong>After the interview ends, break your interviewer character and switch to mentor mode. Leave enough time to give face-to-face constructive feedback. Give honest feedback so candidates can avoid repeating mistakes from mock interviews in real interviews! Not pointing out mistakes is not neutral - it actually encourages candidates to repeat those mistakes. Include feedback on both technical skills and soft skills, and be sure to also point out what the candidate did well so they know to keep doing it.</strong></li>
+</ol>
+<h2 id="workshop-1-hashing-arrays-strings">Workshop 1: Hashing, Arrays, &amp; Strings<a class="headerlink" href="#workshop-1-hashing-arrays-strings" title="Permanent link">&para;</a></h2>
+<p><strong>Scorecard:</strong> <a href="../mock-interview-scorecards/">Mock Interview 1 scorecard</a></p>
+<ol>
+<li><a href="#first-element-occurring-k-times-in-an-array">First Element Occurring K Times in an Array <em>(Follow-Up: Last element occurring K times in array)</em></a></li>
+<li><a href="#missing-elements-in-a-range">Missing Elements in a Range</a></li>
+<li><a href="#pangrams">Pangrams</a></li>
+<li><a href="#isomorphic-strings">Isomorphic Strings</a></li>
+</ol>
+<h3 id="first-element-occurring-k-times-in-an-array">First Element Occurring K Times in an Array<a class="headerlink" href="#first-element-occurring-k-times-in-an-array" title="Permanent link">&para;</a></h3>
+<p>Given an array and an integer k, return the first element that occurs k times.</p>
+<h4 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h4>
+<p>Input: [3, 4, 1, 5, 4, 2, 3, 5, 3, 4]</p>
+<p>Output: k=2 ⇒ 4, k=3 ⇒ 3</p>
+<h4 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force">Brute Force<a class="headerlink" href="#brute-force" title="Permanent link">&para;</a></h5>
+<p>For each element in the array, iterate through the array and count the number of occurrences. If it occurs k or more times, return the element, otherwise continue to the next element.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n^2)</p>
+<p>Space: O(1)</p>
+<h5 id="optimal">Optimal<a class="headerlink" href="#optimal" title="Permanent link">&para;</a></h5>
+<p>Keep a map of element counts. Iterate through the array, incrementing the count of each element in a map. If the count equals k, return the element.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n)</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unordered_map&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">firstKRepeats</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">vec</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">counts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="o">:</span><span class="w"> </span><span class="n">vec</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">       </span><span class="n">counts</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+<span class="w">       </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">counts</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">k</span><span class="p">)</span>
+<span class="w">           </span><span class="k">return</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="c1">// Agree on a value to return here.</span>
+<span class="w">    </span><span class="c1">// If you stipulate the values are positive, -1 works well.</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">-1</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h4 id="follow-up">Follow-Up<a class="headerlink" href="#follow-up" title="Permanent link">&para;</a></h4>
+<p>What about if we wanted the last element occurring K times?</p>
+<p>Instead of returning when we find an element that occurs k times, we can update a variable keeping track of the last time an element occurring k times was seen. Note that iterating backwards does <strong>not</strong> work, because an element that occurs more than k times may incorrectly be returned. Time and space complexity are the same as in the original problem.</p>
+<h3 id="missing-elements-in-a-range">Missing Elements in a Range<a class="headerlink" href="#missing-elements-in-a-range" title="Permanent link">&para;</a></h3>
+<p>Given an array and two integers, lo and hi, defining a range, return the values in the range missing from the array.</p>
+<h4 id="example_1">Example<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h4>
+<p>Input: [8, 12, 18, 11, 15], lo = 7, hi = 16</p>
+<p>Output: [7, 9, 10, 13, 14, 16]</p>
+<h4 id="solution_1">Solution<a class="headerlink" href="#solution_1" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_1">Brute Force<a class="headerlink" href="#brute-force_1" title="Permanent link">&para;</a></h5>
+<p>Sort the array, then perform a binary search for the low value. Traverse from where it is (or is not found) until the high value and store the missing numbers in an array. (Equivalently, search for the high value and traverse backwards to the low value.)</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(nlogn)</p>
+<p>Space: O(logn) or O(n) extra space, depending on the sorting algorithm; most built-in sorts are quicksort, which is O(logn). Also O(k) required space for the return value, where k is the size of the range.</p>
+<h5 id="almost-optimal">Almost Optimal<a class="headerlink" href="#almost-optimal" title="Permanent link">&para;</a></h5>
+<p>Iterate over the array, creating a set of the array elements. Iterate over the range, checking the set for the value at each iteration and adding it to an array if not present.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n + k) or, equivalently, O(max(n, k))</p>
+<p>Space: O(n) extra space. Also O(k) required space for the return value, where k is the size of the range.</p>
+<h5 id="optimal_1">Optimal<a class="headerlink" href="#optimal_1" title="Permanent link">&para;</a></h5>
+<p>Iterate over the array, adding each element in the range to a set. Iterate over the range, checking the set for the value at each iteration and adding it to an array if not present.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n + k) or, equivalently, O(max(n, k))</p>
+<p>Space: O(min(n, k)) extra space. Also O(k) required space for the return value, where k is the size of the range.</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unordered_set&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">missingFromRange</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">vec</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">lo</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">hi</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">present</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unordered_set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">missing</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="o">:</span><span class="w"> </span><span class="n">vec</span><span class="p">)</span>
+<span class="w">       </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">lo</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">hi</span><span class="p">)</span>
+<span class="w">           </span><span class="n">present</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lo</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">hi</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="w">       </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">present</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+<span class="w">           </span><span class="n">missing</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">missing</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="pangrams">Pangrams<a class="headerlink" href="#pangrams" title="Permanent link">&para;</a></h3>
+<p>A pangram is a phrase or sentence containing every letter (a-z) in the English alphabet. Given a string, determine if it is a pangram.</p>
+<h4 id="example_2">Example<a class="headerlink" href="#example_2" title="Permanent link">&para;</a></h4>
+<p>Input: “The quick brown fox jumps over the dog”</p>
+<p>Output: False</p>
+<p>Input: “The quick brown fox jumps over the lazy dog”</p>
+<p>Output: True</p>
+<h4 id="solution_2">Solution<a class="headerlink" href="#solution_2" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_2">Brute Force<a class="headerlink" href="#brute-force_2" title="Permanent link">&para;</a></h5>
+<p>Convert the string to lowercase. Iterate over the lowercase alphabet and search the string for the letter. If the letter is not found, return false. If the end of the alphabet is reached, return true.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n); O(n*m) where m is the size of the alphabet</p>
+<p>Space: O(1)</p>
+<h5 id="optimal_2">Optimal<a class="headerlink" href="#optimal_2" title="Permanent link">&para;</a></h5>
+<p>Create an alphabet array of 0s of size 26. Convert the string to lowercase. Iterate over the string. Convert the current character to an integer and shift (so a-z are 0-25). If the integer representation is 0-25, set the value at that index to 1. Iterate over the alphabet array. If a 0 is encountered, return false. If the end of the array is reached, return true. (Equivalently, a set or map can be used.)</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n); O(n+m) where m is the size of the alphabet (considering the alphabet size as a constant, the brute force and optimal are the same; if the candidate codes the brute force solution and states this encourage them to think of a solution that scales for a larger alphabet)</p>
+<p>Space: O(n)</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;algorithm&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">is_pangram</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">str</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">lower</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">transform</span><span class="p">(</span><span class="n">str</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">str</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="n">tolower</span><span class="p">);</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">alpha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">bool</span><span class="o">&gt;</span><span class="p">(</span><span class="mi">26</span><span class="p">,</span><span class="w"> </span><span class="n">False</span><span class="p">);</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="o">:</span><span class="w"> </span><span class="n">str</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">       </span><span class="kt">int</span><span class="w"> </span><span class="n">ascii_shift</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="sc">'a'</span><span class="p">;</span>
+<span class="w">       </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ascii_shift</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">ascii_shift</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">26</span><span class="p">)</span>
+<span class="w">            </span><span class="n">alpha</span><span class="p">[</span><span class="n">ascii_shift</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">True</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">bool</span><span class="w"> </span><span class="n">b</span><span class="o">:</span><span class="w"> </span><span class="n">alpha</span><span class="p">)</span>
+<span class="w">       </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">False</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">True</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="isomorphic-strings">Isomorphic Strings<a class="headerlink" href="#isomorphic-strings" title="Permanent link">&para;</a></h3>
+<p>Two strings are considered isomorphic if the characters in one string can be replaced to get the characters in the other string. No two distinct characters can be replaced by the same character, but a character can be replaced with itself.</p>
+<h4 id="example_3">Example<a class="headerlink" href="#example_3" title="Permanent link">&para;</a></h4>
+<p>Input: “egg”, “add”</p>
+<p>Output: True</p>
+<p>Input: “foo”, “bar”</p>
+<p>Output: False</p>
+<h4 id="solution_3">Solution<a class="headerlink" href="#solution_3" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_3">Brute Force<a class="headerlink" href="#brute-force_3" title="Permanent link">&para;</a></h5>
+<p>Return false if the strings are of unequal length. Iterate over the length of the strings. For each index, iterate backwards in each string until the same character is found or the beginning is reached. If the previous occurrence of each character is not the same, return false. If the end of the strings are reached, return true. <em>Note: many variations of the same solution exist.</em></p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n^2)</p>
+<p>Space: O(1)</p>
+<h5 id="optimal_3">Optimal<a class="headerlink" href="#optimal_3" title="Permanent link">&para;</a></h5>
+<p>Return false if the strings are of unequal length. Create two maps representing the mappings from string one to string two and vice versa. Iterate over the length of the strings. If the current characters are not in the maps keyed on the respective strings, add them with the character in the other string as the value. If one is in its map and not the other, return false. If they are both in the map, return false if they do not correspond, and continue if they do. Return true if the end of the strings are reached. <em>Note: many variations of the same solution exist.</em></p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n)</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;string&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unordered_map&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">are_isomorphic</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">str1</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">str2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">     </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">str1</span><span class="p">.</span><span class="n">size</span><span class="p">()</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">str2</span><span class="p">.</span><span class="n">size</span><span class="p">())</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">False</span><span class="p">;</span>
+<span class="w">     </span><span class="k">auto</span><span class="w"> </span><span class="n">map1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">char</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">     </span><span class="k">auto</span><span class="w"> </span><span class="n">map2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">char</span><span class="p">,</span><span class="kt">char</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">     </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">str1</span><span class="p">.</span><span class="n">size</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="k">if</span><span class="w"> </span><span class="p">((</span><span class="n">map1</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">str1</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">map1</span><span class="p">.</span><span class="n">end</span><span class="p">())</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="p">(</span><span class="n">map2</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">str2</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">map2</span><span class="p">.</span><span class="n">end</span><span class="p">()))</span>
+<span class="w">              </span><span class="k">return</span><span class="w"> </span><span class="n">False</span>
+<span class="w">         </span><span class="k">if</span><span class="p">((</span><span class="n">map1</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">str1</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">map1</span><span class="p">.</span><span class="n">end</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">              </span><span class="n">map1</span><span class="p">[</span><span class="n">str1</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">str2</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+<span class="w">              </span><span class="n">map2</span><span class="p">[</span><span class="n">str2</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">str1</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+<span class="w">         </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">map1</span><span class="p">[</span><span class="n">str1</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">str2</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">map2</span><span class="p">[</span><span class="n">str2</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">str1</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+<span class="w">              </span><span class="k">return</span><span class="w"> </span><span class="n">False</span><span class="p">;</span>
+<span class="w">     </span><span class="p">}</span>
+<span class="w">     </span><span class="k">return</span><span class="w"> </span><span class="n">True</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="workshop-2-two-pointer-sorting-searching-arrays-strings">Workshop 2: Two-Pointer, Sorting, &amp; Searching Arrays &amp; Strings<a class="headerlink" href="#workshop-2-two-pointer-sorting-searching-arrays-strings" title="Permanent link">&para;</a></h2>
+<p><strong>Scorecard:</strong> <a href="../mock-interview-scorecards/">Mock Interview 2 scorecard</a></p>
+<ol>
+<li><a href="#subarrays-of-size-k-containing-duplicates">Subarrays of Size K Containing Duplicates</a></li>
+<li><a href="#max-stock-profit-with-single-buysell">Max Stock Profit with Single Buy/Sell <em>(Follow-Up: Max stock profit with unlimited buys/sells)</em></a></li>
+<li><a href="#number-of-triplets-with-zero-sum">Number of Triplets with Zero Sum <em>(Follow-Up: Number of triplets with given sum)</em></a></li>
+<li><a href="#max-meetings-in-a-room">Max Meetings in a Room</a></li>
+</ol>
+<h3 id="subarrays-of-size-k-containing-duplicates">Subarrays of Size K Containing Duplicates<a class="headerlink" href="#subarrays-of-size-k-containing-duplicates" title="Permanent link">&para;</a></h3>
+<p>Given an array of integers and an integer k, return the number of unique subarrays of size k that contain duplicate elements.</p>
+<h4 id="example_4">Example<a class="headerlink" href="#example_4" title="Permanent link">&para;</a></h4>
+<p>Input: [4, 5, 3, 7, 4, 2, 3, 8, 7, 1, 5, 3]</p>
+<p>Output: k=4 ⇒ 0, k=5 ⇒ 2, k=6 ⇒ 5</p>
+<h4 id="solution_4">Solution<a class="headerlink" href="#solution_4" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_4">Brute Force<a class="headerlink" href="#brute-force_4" title="Permanent link">&para;</a></h5>
+<p>Create a count. Iterate through the array. For each index, iterate through the rest of the array until a duplicate is encountered. If the indices are k or fewer apart, increment the count.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n^2)</p>
+<p>Space: O(1)</p>
+<h5 id="optimal_4">Optimal<a class="headerlink" href="#optimal_4" title="Permanent link">&para;</a></h5>
+<p>Create a map of integers to integers. Add the first k elements to the map, incrementing their counts. Initialize a count of subarrays to zero if there are no duplicates in the first k elements and 1 otherwise. Iterate over the array until i + k is out-of-bounds. For each index i, decrement the count of the element at i in the map and increment the count of the element at i + k. Check the map for values greater than 1; if there are any, increment the count of subarrays.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n) or O(n*k)</p>
+<p>Space: O(1) or O(k)</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unordered_map&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">dupKSubArrays</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">vec</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">window</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">k</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">window</span><span class="p">[</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">++</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">window</span><span class="p">[</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
+<span class="w">            </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">vec</span><span class="p">.</span><span class="n">size</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">k</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">window</span><span class="p">[</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">--</span><span class="p">;</span>
+<span class="w">        </span><span class="n">window</span><span class="p">[</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="n">k</span><span class="p">]]</span><span class="o">++</span><span class="p">;</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">element</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">window</span><span class="p">)</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">element</span><span class="p">.</span><span class="n">second</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="n">count</span><span class="o">++</span><span class="p">;</span>
+<span class="w">                </span><span class="k">break</span><span class="p">;</span>
+<span class="w">           </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">count</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="max-stock-profit-with-single-buysell">Max Stock Profit with Single Buy/Sell<a class="headerlink" href="#max-stock-profit-with-single-buysell" title="Permanent link">&para;</a></h3>
+<p>Given an array of integers representing the price of a stock over time, return the maximum profit that can be made on a share by buying and selling at most once.</p>
+<h4 id="example_5">Example<a class="headerlink" href="#example_5" title="Permanent link">&para;</a></h4>
+<p>Input: [50, 48, 44, 49, 31, 36, 32, 39, 51, 26, 25, 28]</p>
+<p>Output: 20 (buy at 31, sell at 51)</p>
+<h4 id="solution_5">Solution<a class="headerlink" href="#solution_5" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_5">Brute Force<a class="headerlink" href="#brute-force_5" title="Permanent link">&para;</a></h5>
+<p>Keep track of the max profit (initialized to zero) in a variable. Use a nested loop to check the profit at every possible buy/sell combination and compare to the max profit so far.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n^2)</p>
+<p>Space: O(1)</p>
+<h5 id="optimal_5">Optimal<a class="headerlink" href="#optimal_5" title="Permanent link">&para;</a></h5>
+<p>Use two variables to keep track of the max profit and the buy point (both initialized to zero). Iterate through the array. If the current value is less than the value at the buy point, update the buy point to the current index. Otherwise, compute the profit with the current index as the sell point and compare to the max profit so far.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(1)</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">stockProfit</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">vec</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">profit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">buy</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">vec</span><span class="p">.</span><span class="n">size</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">vec</span><span class="p">[</span><span class="n">buy</span><span class="p">])</span>
+<span class="w">             </span><span class="n">buy</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">vec</span><span class="p">[</span><span class="n">buy</span><span class="p">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">profit</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">             </span><span class="n">profit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">vec</span><span class="p">[</span><span class="n">buy</span><span class="p">];</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">profit</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h4 id="follow-up_1">Follow-Up<a class="headerlink" href="#follow-up_1" title="Permanent link">&para;</a></h4>
+<p>What if we were allowed unlimited buys and sells?</p>
+<p>Iterate over the array. If the next element is greater than the current element, add the difference to the profit.</p>
+<h3 id="number-of-triplets-with-zero-sum">Number of Triplets with Zero Sum<a class="headerlink" href="#number-of-triplets-with-zero-sum" title="Permanent link">&para;</a></h3>
+<p>Given an array of integers, return the number of unique triplets that sum to zero.</p>
+<h4 id="example_6">Example<a class="headerlink" href="#example_6" title="Permanent link">&para;</a></h4>
+<p>Input: [8, 2, 3, 5, -2, 1, -1, 3]</p>
+<p>Output: 2 (Triplets are (-2, -1, 3), (-2, -1, 3))</p>
+<p>Input: [5, 0, -5, -2, 4, 1, -3, 6]</p>
+<p>Output: 3 (Triplets are (5, 0, -5), (5, -2, -3), (-5, 4, 1))</p>
+<h4 id="solution_6">Solution<a class="headerlink" href="#solution_6" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_6">Brute Force<a class="headerlink" href="#brute-force_6" title="Permanent link">&para;</a></h5>
+<p>Keep a count of triplets. Use a triple nested loop to iterate through every possible triplet of indices and check whether the sum of the elements equals zero and if so, increment the count.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n^3)</p>
+<p>Space: O(1)</p>
+<h5 id="optimal_6">Optimal<a class="headerlink" href="#optimal_6" title="Permanent link">&para;</a></h5>
+<p>Create a map of integers to integers. Iterate through the array and increment the count of each element. Use a nested loop to iterate through every possible pair of indices. Calculate the target value by negating the sum of the two elements. If the target is in the map and the count of the target is greater than or equal to the occurrences of the target in the triplet, increment the count.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n^2)</p>
+<p>Space: O(n)</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unordered_map&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">tripletsZeroSum</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">vec</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">counts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">element</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">vec</span><span class="p">)</span>
+<span class="w">        </span><span class="n">counts</span><span class="p">[</span><span class="n">element</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">vec</span><span class="p">.</span><span class="n">size</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">vec</span><span class="p">.</span><span class="n">size</span><span class="p">();</span><span class="w"> </span><span class="n">j</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">target</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">-1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">vec</span><span class="p">[</span><span class="n">j</span><span class="p">]);</span>
+<span class="w">           </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">counts</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">target</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">counts</span><span class="p">.</span><span class="n">end</span><span class="p">())</span>
+<span class="w">               </span><span class="k">continue</span><span class="p">;</span>
+<span class="w">           </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">target</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">vec</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">target</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">counts</span><span class="p">[</span><span class="n">target</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span>
+<span class="w">               </span><span class="k">continue</span><span class="p">;</span>
+<span class="w">           </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">target</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">vec</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">target</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">counts</span><span class="p">[</span><span class="n">target</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span>
+<span class="w">               </span><span class="n">Continue</span><span class="p">;</span>
+<span class="w">           </span><span class="n">count</span><span class="o">++</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">count</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h4 id="follow-up_2">Follow-Up<a class="headerlink" href="#follow-up_2" title="Permanent link">&para;</a></h4>
+<p>What about if we wanted the number of triplets summing to any given target?</p>
+<p>Pass the target sum to the function and calculate the value to lookup in the map by subtracting the sum of the pair from that value.</p>
+<h3 id="max-meetings-in-a-room">Max Meetings in a Room<a class="headerlink" href="#max-meetings-in-a-room" title="Permanent link">&para;</a></h3>
+<p>Given an array of numeric pairs representing the start and end times of scheduled meetings, find the maximum number of meetings that can be held in a room if only one meeting can occur in the room at once.</p>
+<h4 id="example_7">Example<a class="headerlink" href="#example_7" title="Permanent link">&para;</a></h4>
+<p>Input: [(8.5, 9.5), (11, 11.25), (9, 11), (11.5, 13), (10, 10.75), (8, 9)]</p>
+<p>Output: 4 (The following meetings can occur in the given order: (8, 9), (10, 10.75), (11, 11.25), 11.5, 13))</p>
+<h4 id="solution_7">Solution<a class="headerlink" href="#solution_7" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_7">Brute Force<a class="headerlink" href="#brute-force_7" title="Permanent link">&para;</a></h5>
+<p>Check if any of the meetings overlap. If not, return the number of meetings. Otherwise, try removing each of the overlapping meetings and repeat.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n!) (Do not even let the candidate code this solution.)</p>
+<p>Space: O(1)</p>
+<h5 id="optimal_7">Optimal<a class="headerlink" href="#optimal_7" title="Permanent link">&para;</a></h5>
+<p>Sort the meetings by end time. Initialize a count to one and index (to track the last selected meeting) to 0. Iterate through the meetings starting at index 1. If the last selected meeting’s end time is less than or equal to the current meeting’s start time, the meeting can be held in the same room; increment the count and update the index to the current index.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(nlogn)</p>
+<p>Space: O(1)</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;algorithm&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">maxMeetingsRoom</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">float</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">vec</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">vec</span><span class="p">.</span><span class="n">size</span><span class="p">())</span>
+<span class="w">       </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sort</span><span class="p">(</span><span class="n">vec</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">vec</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="p">[](</span><span class="k">const</span><span class="w"> </span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">left</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">right</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">left</span><span class="p">.</span><span class="n">second</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">right</span><span class="p">.</span><span class="n">second</span><span class="p">)</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">left</span><span class="p">.</span><span class="n">second</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">right</span><span class="p">.</span><span class="n">second</span><span class="p">;</span>
+<span class="w">        </span><span class="k">else</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">left</span><span class="p">.</span><span class="n">first</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">right</span><span class="p">.</span><span class="n">first</span><span class="p">;</span>
+<span class="w">    </span><span class="p">});</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">ind</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">vec</span><span class="p">.</span><span class="n">size</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">first</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">vec</span><span class="p">[</span><span class="n">ind</span><span class="p">].</span><span class="n">second</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">count</span><span class="o">++</span><span class="p">;</span>
+<span class="w">            </span><span class="n">ind</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">count</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="workshop-3-linked-lists-trees">Workshop 3: Linked Lists &amp; Trees<a class="headerlink" href="#workshop-3-linked-lists-trees" title="Permanent link">&para;</a></h2>
+<p><strong>Scorecard:</strong> <a href="../mock-interview-scorecards/">Mock Interview 3 scorecard</a></p>
+<ol>
+<li><a href="#reverse-linked-list-in-groups-of-k">Reverse Linked List in Groups of k</a></li>
+<li><a href="#max-height-of-a-binary-tree">Max Height of Binary Tree</a></li>
+<li><a href="#number-of-nodes-within-k-distance-of-root">Number of Nodes within k Distance of Root</a></li>
+<li><a href="#median-of-a-sorted-linked-list">Median of a Sorted Linked List</a></li>
+</ol>
+<h3 id="reverse-linked-list-in-groups-of-k">Reverse Linked List in Groups of k<a class="headerlink" href="#reverse-linked-list-in-groups-of-k" title="Permanent link">&para;</a></h3>
+<p>Given the head node of a linked list, reverse the linked list in groups of k.</p>
+<h4 id="example_8">Example<a class="headerlink" href="#example_8" title="Permanent link">&para;</a></h4>
+<p>Input: 4 ⇒ 8 ⇒ 5 ⇒ 3 ⇒ 6 ⇒ 6 ⇒ 9 ⇒ 1</p>
+<p>k=2:</p>
+<p>Output: 8 ⇒ 4 ⇒ 3 ⇒ 5 ⇒ 6 ⇒ 6 ⇒ 1 ⇒ 9</p>
+<p>k =3:</p>
+<p>Output: 5 ⇒ 8 ⇒ 4 ⇒ 6 ⇒ 6 ⇒ 3 ⇒ 1 ⇒ 9</p>
+<h4 id="solution_8">Solution<a class="headerlink" href="#solution_8" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_8">Brute Force<a class="headerlink" href="#brute-force_8" title="Permanent link">&para;</a></h5>
+<p>Iterate over the linked list and copy it to a temporary array. Iterate over the array using the indices to reverse the elements in groups of k. (One optimal variation of this is to use nested loops with an outer loop that increments i by k, rather than the typical 1, and an inner loop that iterates only over i to i +k, reversing the elements.) Iterate over the linked list again, overwriting the data with the corresponding element in the array.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n)</p>
+<h5 id="good">Good<a class="headerlink" href="#good" title="Permanent link">&para;</a></h5>
+<p>Reverse the first k elements recursively using a counter for k. Recurse on the remainder of the list, setting element k’s next to the result.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n/k) (O(1) explicit, O(n/k) implicit recursive stack space)</p>
+<h5 id="optimal_8">Optimal<a class="headerlink" href="#optimal_8" title="Permanent link">&para;</a></h5>
+<p>Reverse the first k elements iteratively using a counter for k. Recurse on the remainder of the list, setting element k’s next to the result.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(1)</p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="nf">kReverse</span><span class="p">(</span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">head</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">curr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">prev</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">newHead</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">newTail</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">tail</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">;</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">curr</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">k</span><span class="p">;</span>
+<span class="w">        </span><span class="n">join</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">curr</span><span class="p">;</span>
+<span class="w">        </span><span class="n">prev</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">;</span>
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">curr</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">count</span><span class="o">--</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">curr</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<span class="w">            </span><span class="n">curr</span><span class="o">-&gt;</span><span class="n">next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prev</span><span class="p">;</span>
+<span class="w">            </span><span class="n">prev</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">curr</span><span class="p">;</span>
+<span class="w">            </span><span class="n">curr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">next</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">newHead</span><span class="p">)</span>
+<span class="w">             </span><span class="n">newHead</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prev</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">tail</span><span class="p">)</span>
+<span class="w">             </span><span class="n">tail</span><span class="o">-&gt;</span><span class="n">next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prev</span><span class="p">;</span>
+<span class="w">        </span><span class="n">tail</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">newTail</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">newHead</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="max-height-of-a-binary-tree">Max Height of a Binary Tree<a class="headerlink" href="#max-height-of-a-binary-tree" title="Permanent link">&para;</a></h3>
+<p>Given a binary tree, find the longest path from the root to a leaf (node with no children).</p>
+<h4 id="example_9">Example<a class="headerlink" href="#example_9" title="Permanent link">&para;</a></h4>
+<p>Input:</p>
+<p>1</p>
+<p>/ \</p>
+<p>2 3</p>
+<p>/ \</p>
+<p>4 5</p>
+<p>/</p>
+<p>6</p>
+<p>Output: 4</p>
+<p>Input:</p>
+<p>1</p>
+<p>/ \</p>
+<p>2 3</p>
+<p>/ \ /</p>
+<p>4 5 6</p>
+<p>Output: 3</p>
+<h4 id="solution_9">Solution<a class="headerlink" href="#solution_9" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_9">Brute Force<a class="headerlink" href="#brute-force_9" title="Permanent link">&para;</a></h5>
+<p>Use any traversal to find every leaf node. Then use any traversal to find the distance to each leaf node. Return the maximum.</p>
+<p><strong>Complexity</strong></p>
+<p>Time: O(n^2)</p>
+<p>Space: O(n)</p>
+<p><em>Note: do not let the candidate code this solution!</em></p>
+<h5 id="good_1">Good<a class="headerlink" href="#good_1" title="Permanent link">&para;</a></h5>
+<p>Use a post-order traversal to calculate the heights of the left and right subtrees and return the max plus one.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n) (O(1) explicit, O(n) implicit stack space)</p>
+<h5 id="good_2">Good<a class="headerlink" href="#good_2" title="Permanent link">&para;</a></h5>
+<p>Use a level-order traversal using either two queues for current and previous level or pushing null values (if permitted in the language of choice) to mark the end of levels. If the former, keep a level count that is incremented every time the current level is reset; if the latter, keep a level count that is incremented whenever a null value is popped.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n)</p>
+<h5 id="optimal_9">Optimal<a class="headerlink" href="#optimal_9" title="Permanent link">&para;</a></h5>
+<p>The Morris traversal algorithm makes this possible in O(1) space. <strong>It is not expected that candidates will find this solution; therefore the sample solution below is a “good” solution.</strong></p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;algorithm&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">maxDepth</span><span class="p">(</span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">root</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">root</span><span class="p">)</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">max</span><span class="p">(</span><span class="n">maxDepth</span><span class="p">(</span><span class="n">root</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">),</span><span class="w"> </span><span class="n">maxDepth</span><span class="p">(</span><span class="n">root</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">));</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="number-of-nodes-within-k-distance-of-root">Number of Nodes within K Distance of Root<a class="headerlink" href="#number-of-nodes-within-k-distance-of-root" title="Permanent link">&para;</a></h3>
+<p>Given a binary tree, count the number of nodes within k distance of the root.</p>
+<h4 id="example_10">Example<a class="headerlink" href="#example_10" title="Permanent link">&para;</a></h4>
+<p>Input:</p>
+<p>1</p>
+<p>/ \</p>
+<p>2 3</p>
+<p>/ \</p>
+<p>4 5</p>
+<p>/</p>
+<p>6</p>
+<p>k = 3</p>
+<p>Output: 5</p>
+<p>Input:</p>
+<p>1</p>
+<p>/ \</p>
+<p>2 3</p>
+<p>/ \ /</p>
+<p>4 5 6</p>
+<p>k = 3</p>
+<p>Output: 6</p>
+<h4 id="solution_10">Solution<a class="headerlink" href="#solution_10" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_10">Brute Force<a class="headerlink" href="#brute-force_10" title="Permanent link">&para;</a></h5>
+<p>Use any traversal to find every node. Then use any traversal to find the depth of each node. Count the number of values less than or equal to k.</p>
+<p><strong>Complexity</strong></p>
+<p>Time: O(n^2)</p>
+<p>Space: O(n)</p>
+<p><em>Note: do not let the candidate code this solution!</em></p>
+<h5 id="better">Better<a class="headerlink" href="#better" title="Permanent link">&para;</a></h5>
+<p>Use a level-order or pre-order traversal to find the depth of each node. Count the number of values less than or equal to k.</p>
+<p><strong>Complexity</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n)</p>
+<p><em>Note: do not let the candidate code this solution!</em></p>
+<h5 id="good_3">Good<a class="headerlink" href="#good_3" title="Permanent link">&para;</a></h5>
+<p>Use a level-order traversal using either two queues for current and previous level. Keep two counts: a level count that is incremented every time the current level is reset; and a node count that is incremented every time a node is popped. When the level count exceeds k, return the node count.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n)</p>
+<p><em>Note that while Big O space and time are the same as the “Better” solution, because this solution terminates early, in practice it is much better.</em></p>
+<h5 id="optimal_10">Optimal<a class="headerlink" href="#optimal_10" title="Permanent link">&para;</a></h5>
+<p>Use a pre-order traversal that accepts the distance from the root and k. Increment the distance; if it is greater than k, return 0; otherwise return one plus the counts from the left and right subtrees.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(k) (O(1) explicit, O(k) implicit stack space)</p>
+<p><em>Note: in the worst case (k=n), the max space for the “Good” solution is n/2 and the max space for the “Optimal” solution is n, since we typically consider k \&lt;\&lt; n, the solutions are labelled this way. However, both are acceptable. If the candidate considers and weighs this, that is the ideal, although not expected.</em></p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;algorithm&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">countWithinK</span><span class="p">(</span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">root</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">depth</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">root</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">depth</span><span class="o">+</span><span class="mi">1</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">k</span><span class="p">)</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">countWithinK</span><span class="p">(</span><span class="n">root</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">,</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="n">depth</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span><span class="w"> </span><span class="n">countWithinK</span><span class="p">(</span><span class="n">root</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">,</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="n">depth</span><span class="o">+</span><span class="mi">1</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">countWithinK</span><span class="p">(</span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">root</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">countWithinK</span><span class="p">(</span><span class="n">root</span><span class="p">,</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="median-of-a-sorted-linked-list">Median of a Sorted Linked List<a class="headerlink" href="#median-of-a-sorted-linked-list" title="Permanent link">&para;</a></h3>
+<p>Given a sorted singly list of integers, return the median value.</p>
+<h4 id="example_11">Example<a class="headerlink" href="#example_11" title="Permanent link">&para;</a></h4>
+<p>Input: 1 ⇒ 3 ⇒ 4 ⇒ 5 ⇒ 6 ⇒ 6 ⇒ 9</p>
+<p>Output: 5</p>
+<p>Input: 1 ⇒ 3 ⇒ 4 ⇒ 5 ⇒ 6 ⇒ 6 ⇒ 8 ⇒ 9</p>
+<p>Output: 5.5</p>
+<h4 id="solution_11">Solution<a class="headerlink" href="#solution_11" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_11">Brute Force<a class="headerlink" href="#brute-force_11" title="Permanent link">&para;</a></h5>
+<p>Copy the linked list into an array and use the indices to find the median.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(n)</p>
+<p><em>Note: do not let the candidate code this solution!</em></p>
+<h5 id="good_4">Good<a class="headerlink" href="#good_4" title="Permanent link">&para;</a></h5>
+<p>Iterate over the list to find its length. Then iterate again to find the middle(s).</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(1)</p>
+<h5 id="optimal_11">Optimal<a class="headerlink" href="#optimal_11" title="Permanent link">&para;</a></h5>
+<p>Use fast-slow pointers to find the middle(s) at the same time as the length.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n)</p>
+<p>Space: O(1)</p>
+<p><em>Note: the Big O is the same as the “Good” solution but a traversal is eliminated, making this the better solution.</em></p>
+<p><strong>C++ Sample Code</strong></p>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="nf">median</span><span class="p">(</span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">head</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">slow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Node</span><span class="w"> </span><span class="o">*</span><span class="n">fast</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">fast</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">count</span><span class="o">++</span><span class="p">;</span>
+<span class="w">        </span><span class="n">fast</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fast</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">fast</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">count</span><span class="o">++</span><span class="p">;</span>
+<span class="w">            </span><span class="n">fast</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fast</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">fast</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span>
+<span class="w">                </span><span class="n">slow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">slow</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">count</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">slow</span><span class="o">-&gt;</span><span class="n">next</span><span class="o">-&gt;</span><span class="n">value</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="n">slow</span><span class="o">-&gt;</span><span class="n">value</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">slow</span><span class="o">-&gt;</span><span class="n">next</span><span class="o">-&gt;</span><span class="n">value</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="workshop-4-graphs-data-structure-selection">Workshop 4: Graphs &amp; Data Structure Selection<a class="headerlink" href="#workshop-4-graphs-data-structure-selection" title="Permanent link">&para;</a></h2>
+<p><strong>Scorecard:</strong> <a href="../mock-interview-scorecards/">Mock Interview 4 scorecard</a></p>
+<ol>
+<li><a href="#count-paths-between-nodes">Count Paths Between Nodes</a></li>
+<li><a href="#topping-possibilities">Topping Possibilities</a></li>
+<li><a href="#alien-dictionary">Alien Dictionary</a></li>
+<li><a href="#reorganize-array-without-adjacent-duplicates">Reorganize Array without Adjacent Duplicates</a></li>
+</ol>
+<h3 id="count-paths-between-nodes">Count Paths Between Nodes<a class="headerlink" href="#count-paths-between-nodes" title="Permanent link">&para;</a></h3>
+<p>Given a graph, an origin node, and a destination node, count the number of distinct paths from the origin to the destination.</p>
+<h4 id="example_12">Example<a class="headerlink" href="#example_12" title="Permanent link">&para;</a></h4>
+<p>Input graph:</p>
+<p>A: B, D, E</p>
+<p>B: A, C</p>
+<p>C: B, D</p>
+<p>D: A, C</p>
+<p>E: A</p>
+<p>Origin: A, Destination: D</p>
+<p>Output: 2 (Possible paths are [A, D] and [A, B, C, D])</p>
+<p>Origin: B, Destination: D</p>
+<p>Output: 2 (Possible paths are [B, A, D] and [B, C, D])</p>
+<p><em>Note: the problem does not specify undirected. The solution should also work for directed graphs. The candidate should seek this clarification.</em></p>
+<h4 id="solution_12">Solution<a class="headerlink" href="#solution_12" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_12">Brute Force<a class="headerlink" href="#brute-force_12" title="Permanent link">&para;</a></h5>
+<p>Generate every possible permutation of 0 to n-2 nodes (excluding the origin and destination). Traverse each, checking whether the edges exist. If all do, increase count of paths.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n!)</p>
+<p>Space: O(2^n)</p>
+<p><em>Note: do not let the candidate code this solution!</em></p>
+<h5 id="optimal_12">Optimal<a class="headerlink" href="#optimal_12" title="Permanent link">&para;</a></h5>
+<p>Use DFS to traverse the graph from the origin. Rather than terminating when the destination is found as you would to find whether a path exists, increase the count of paths and continue traversing until all possible paths are exhausted. To increase the count, return 0 if the destination is not found and 1 if it is, adding the result of the recursive call to a running sum.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(V+E)</p>
+<p>Space: O(V)</p>
+<h3 id="topping-possibilities">Topping Possibilities<a class="headerlink" href="#topping-possibilities" title="Permanent link">&para;</a></h3>
+<p>A sandwich shop has n available toppings a customer can add to a build-your-own sandwich. Given a list of the available toppings, return every possible combination of toppings a customer could order.</p>
+<h4 id="example_13">Example<a class="headerlink" href="#example_13" title="Permanent link">&para;</a></h4>
+<p>Input: [“cheese”]</p>
+<p>Output: [ [ ], [“cheese”] ]</p>
+<p>Input: [“cheese”, “onions”, “pesto”]</p>
+<p>Output: [ [ ], [“cheese”], [“onions”], [“pesto”], [“cheese”, “onions”], [“cheese”, “pesto”], [“onions”, “pesto”], [“cheese”, “onions”, “pesto”] ]</p>
+<h4 id="solution_13">Solution<a class="headerlink" href="#solution_13" title="Permanent link">&para;</a></h4>
+<h5 id="brute-forceoptimal">Brute Force/Optimal<a class="headerlink" href="#brute-forceoptimal" title="Permanent link">&para;</a></h5>
+<p>In this problem, the brute force and the optimal solution are the same: there is no choice but to generate every possible combination of toppings. Use a queue to store the results. Start with an empty array on the queue. Iterate over the list of toppings and their index, i. Remove 2^i items from the front of the queue. For each removed list, add two lists to the back of the queue: the same list that was removed, and the removed list with the element in the toppings list at index i added to it. Insert the elements in the resulting queue into an array return it.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(2^n)</p>
+<p>Space: O(2^n)</p>
+<h3 id="alien-dictionary">Alien Dictionary<a class="headerlink" href="#alien-dictionary" title="Permanent link">&para;</a></h3>
+<p>You are given a list of words in an alien language, sorted alphabetically according to that language. The language uses the letters from the English alphabet but they do not represent the English letters. Determine the order of the letters in the alien alphabet.</p>
+<h4 id="example_14">Example<a class="headerlink" href="#example_14" title="Permanent link">&para;</a></h4>
+<p>Input: “bzza”, “baj”, “zja”, “zb”, “kaab”, “kkz”</p>
+<p>Output: ‘j’, ‘b’, ‘z’, ‘a’, ‘k’</p>
+<p>Input: “at”, “cocoa”, “cot”, “cat”, “god”, “dot”, “dog”</p>
+<p>Output: ‘o’, ‘a’, ‘c’, ‘t’, ‘g’, ‘d’</p>
+<h4 id="solution_14">Solution<a class="headerlink" href="#solution_14" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_13">Brute Force<a class="headerlink" href="#brute-force_13" title="Permanent link">&para;</a></h5>
+<p>Generate every possible alphabetical ordering. Sort according to that ordering and compare to the input.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n!) where n is the number of characters, not words</p>
+<p>Space: O(n!) where n is the number of characters, not words</p>
+<p><em>Note: do not let the candidate code this solution!</em></p>
+<h5 id="optimal_13">Optimal<a class="headerlink" href="#optimal_13" title="Permanent link">&para;</a></h5>
+<p>Treat the problem as a topological sort graph problem. Unique letters represent nodes. Create edges as follows: iterate over the words, looking at pairs of adjacent words, words n and n+11. Iterate over the indices of the characters in words n and n+1 until you find the first index i at which n[i] and n+1[i] are not the same and create an edge form n[i] to n+1[i]. Then perform topological sort.</p>
+<p><em>Note: ensure the candidate clarifies and appropriately accounts the edge case in which there is not enough information to conclusively determine the order.</em></p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(V+E) or O(n^2) where n is the number of characters, not words</p>
+<p>Space: O(V) or O(n^2) where n is the number of characters, not words</p>
+<h5 id="optimal_14">Optimal<a class="headerlink" href="#optimal_14" title="Permanent link">&para;</a></h5>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(2^n)</p>
+<p>Space: O(2^n)</p>
+<p><strong>C++ Sample Code</strong></p>
+<h3 id="reorganize-array-without-adjacent-duplicates">Reorganize Array without Adjacent Duplicates<a class="headerlink" href="#reorganize-array-without-adjacent-duplicates" title="Permanent link">&para;</a></h3>
+<p>Given an array of integers, reorder the elements so that no two adjacent elements are the same.</p>
+<h4 id="example_15">Example<a class="headerlink" href="#example_15" title="Permanent link">&para;</a></h4>
+<p><em>Note: there are multiple possible outputs for many inputs. One solution is illustrated below. Any is acceptable; answer this question if it is asked but do not bring it up without the candidate introducing it.</em></p>
+<p>Input: [1, 5, 4, 3, 8, 4]</p>
+<p>Output: [1, 5, 4, 3, 8, 4]</p>
+<p>Input: [3, 4, 1, 1, 3, 4, 3, 3, 4]</p>
+<p>Output: [3, 4, 3, 4, 3, 1, 3, 4, 1]</p>
+<h4 id="solution_15">Solution<a class="headerlink" href="#solution_15" title="Permanent link">&para;</a></h4>
+<h5 id="brute-force_14">Brute Force<a class="headerlink" href="#brute-force_14" title="Permanent link">&para;</a></h5>
+<p>Create a map of elements to counts. Try every possible solution and check whether there are any adjacent duplicates. Return the first valid solution. <strong>Do not let the candidate code this solution.</strong></p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n!)</p>
+<p>Space: O(n!)</p>
+<h5 id="bad">Bad<a class="headerlink" href="#bad" title="Permanent link">&para;</a></h5>
+<p>Create a map of elements to counts. Use recursion with backtracking and branchtrimming to build the solution array from the elements, terminating a branch if it puts two duplicate elements next to each other.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(n!) but in practice much better than the brute force</p>
+<p>Space: O(n)</p>
+<h5 id="optimal_15">Optimal<a class="headerlink" href="#optimal_15" title="Permanent link">&para;</a></h5>
+<p>Create a map of elements to counts and initalize a previous element to null. Use a priority queue and insert each element with its count as the weight. Remove the top element, insert it into the solution array and decrement the count. Insert the previous element, if there is one and its count is not zero, back into the priority queue and save the updated top element as the previous element. Repeat until priority queue is empty. If the previous element has a zero count, return the solution array; otherwise there is no possible solution.</p>
+<p><strong>Complexity:</strong></p>
+<p>Time: O(nlogn)</p>
+<p>Space: O(n)</p>
+<p><strong>C++ Sample Code</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../assignments/assignment-4-solution/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Solution Guide 4">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Solution Guide 4
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../peer-mock-interviews/" class="md-footer__link md-footer__link--next" aria-label="Next: Peer Mock Interviews">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Peer Mock Interviews
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Licensed under <a href="https://github.com/uber/uber-career-prep-playbook/blob/main/LICENCE.md" target="_blank">Creative Commons Attribution 4.0 International</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/uber/uber-career-prep-playbook" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>

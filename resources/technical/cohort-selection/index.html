@@ -1,0 +1,4958 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A strategy and execution playbook for building a Career Prep program that helps undergraduate engineering students enter the tech industry.">
+      
+      
+      
+        <link rel="canonical" href="https://uber.github.io/uber-career-prep-playbook/resources/technical/cohort-selection/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../technical-sessions/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Cohort Selection Interviews - Uber Career Prep Playbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cohort-selection-technical-interviews" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Uber Career Prep Playbook" class="md-header__button md-logo" aria-label="Uber Career Prep Playbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Uber Career Prep Playbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cohort Selection Interviews
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/uber/uber-career-prep-playbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    uber/uber-career-prep-playbook
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../overview/what-is-ucp/" class="md-tabs__link">
+          
+  
+  
+  Overview
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planning/" class="md-tabs__link">
+          
+  
+  
+  Planning Your Program
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../roles/" class="md-tabs__link">
+          
+  
+  
+  Roles & Responsibilities
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../execution/" class="md-tabs__link">
+          
+  
+  
+  Program Execution
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Uber Career Prep Playbook" class="md-nav__button md-logo" aria-label="Uber Career Prep Playbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Uber Career Prep Playbook
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/uber/uber-career-prep-playbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    uber/uber-career-prep-playbook
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/what-is-ucp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What is UCP?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/program-goals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Goals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planning Your Program
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planning Your Program
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planning Your Program
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-01-review-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 1 — Review Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-02-engage-leadership/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 2 — Engage Leadership
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-03-create-timeline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 3 — Create Timeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-04-confirm-core-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 4 — Confirm Core Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-05-virtual-or-in-person/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 5 — Virtual or In-Person
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-06-program-length/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 6 — Program Length
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-07-cohort-size/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 7 — Cohort Size
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-08-workshop-dates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 8 — Workshop Dates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-09-budget/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 9 — Budget
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-10-recruiting-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 10 — Recruiting Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-11-curriculum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 11 — Curriculum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-12-volunteer-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 12 — Volunteer Plan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-13-comms-core-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 13 — Comms for Core Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-14-comms-participants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 14 — Comms for Participants
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-15-execution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 15 — Program Execution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-16-retrospective/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 16 — Retrospective
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planning/step-17-alumni-network/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 17 — Alumni Network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles & Responsibilities
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Roles & Responsibilities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles &amp; Responsibilities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/core-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Program Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/volunteers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Volunteer Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Execution
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Program Execution
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../execution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Execution Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../execution/phase-1-selection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 1 — Selecting Fellows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../execution/phase-2-workshops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 2 — Workshops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../execution/phase-3-outcomes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 3 — Internship Outcomes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Role Descriptions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Role Descriptions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/regional-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regional Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/program-mc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program MC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/recruiting-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recruiting Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/mentor-volunteer-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mentor and Volunteer Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../role-descriptions/technical-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task Lists
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Task Lists
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../task-lists/regional-program-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regional Program Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../task-lists/recruiting-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recruiting Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../task-lists/mentor-volunteer-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mentor and Volunteer Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../task-lists/technical-lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Lead
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Timelines and Checklists
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Timelines and Checklists
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../timelines-and-checklists/program-execution-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Execution Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../timelines-and-checklists/program-timeline-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Timeline Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marketing and Communications
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Marketing and Communications
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing-and-communications/marketing-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marketing Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing-and-communications/communications-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communications Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../welcome-deck/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome Deck
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../technical-mentor-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Mentor Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Technical Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cohort Selection Interviews
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cohort Selection Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-technical-interviewers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips for Technical Interviewers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#question-bank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Question Bank
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Question Bank">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-palindromes-anagrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Palindromes &amp; Anagrams
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Palindromes &amp; Anagrams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-special-array-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Special Array Elements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Special Array Elements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-array-arrangement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Array Arrangement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Array Arrangement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-array-arithmetic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Array Arithmetic
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Array Arithmetic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_8_3" id="__nav_6_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Session Decks
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Technical Session Decks
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/workshop-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop 1: Array & String
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/workshop-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop 2: Linked List & Tree
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/workshop-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop 3: Graph & Data Structure Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-sessions/workshop-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop 4: 10% & Studying
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_8_4" id="__nav_6_8_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Practice Assignments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Practice Assignments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../practice-assignments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../practice-assignment-scorecards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scorecards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 0: Arrays, Strings, & Hashing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 1: Arrays & Strings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 2: Linked Lists & Trees
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 3: Graphs & Data Structure Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignment 4: Tries & Repeated Computation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-0-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-1-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-2-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-3-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/assignment-4-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Guide 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_8_5" id="__nav_6_8_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mock Interviews
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mock Interviews
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mock-interviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mock Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peer-mock-interviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peer Mock Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mock-interview-scorecards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scorecards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-technical-interviewers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips for Technical Interviewers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#question-bank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Question Bank
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Question Bank">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-palindromes-anagrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Palindromes &amp; Anagrams
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Palindromes &amp; Anagrams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-special-array-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Special Array Elements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Special Array Elements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-array-arrangement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Array Arrangement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Array Arrangement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-array-arithmetic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Array Arithmetic
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Array Arithmetic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow-up-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Follow-Up 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Follow-Up 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-definition_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Function Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-inputoutput_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Input/Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-solutions_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/uber/uber-career-prep-playbook/edit/main/docs/resources/technical/cohort-selection.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="cohort-selection-technical-interviews">Cohort Selection Technical Interviews<a class="headerlink" href="#cohort-selection-technical-interviews" title="Permanent link">&para;</a></h1>
+<p>Resources for the technical interviews used to select the cohort: tips for interviewers and the question bank, with follow-ups and possible solutions for each question.</p>
+<h2 id="tips-for-technical-interviewers">Tips for Technical Interviewers<a class="headerlink" href="#tips-for-technical-interviewers" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Do the problems ahead of time!</li>
+<li>Give your candidate an example of an input and the correct solution.</li>
+<li>Answer clarifying questions. If the problem doesn’t say, feel free to decide what you want and go with it!</li>
+<li>Nervous or overeager candidates tend to jump right into coding or trying to write something down. If this happens, ask your candidate to talk through their ideas first.</li>
+<li>If your candidate is quiet, ask them to talk through their ideas aloud. If there’s a silence of more than a couple of minutes, get your candidate talking again.</li>
+<li>That said, give your candidate time to think. This is one of the hardest parts of being an interviewer – there are often a lot of pauses and it can be awkward or painful. Two minutes of quiet can feel like a very long time.</li>
+<li>If you’re not sure if the candidate is stuck or just thinking and quiet, ask your candidate to explain what they’re thinking. This will help you avoid giving premature or unnecessary hints.</li>
+<li>If the candidate is making progress, stay quiet. Sometimes it’s also hard to keep your mouth shut, and it can feel weird to sit there and observe in silence, but when the candidate is excelling, the interviewer does very little talking!</li>
+<li>Take notes! <em>Note things that go well and poorly so you can write your full feedback afterwards without interrupting the flow or atmosphere of the interview.</em> Also write down how long the candidate spends on each part (developing the initial algorithm, translating it into code, testing, etcetera) to understand where they struggle and excel.</li>
+<li>Encourage the candidate to work through examples by hand and/or draw an illustration of the problem if they’re confused or stuck.</li>
+<li>Brainstorm “little hints”, “medium hints”, and “big hints” you can give if the candidate gets stuck. “Little hints” tend to be open-ended (i.e., “how would you do this problem if you were solving it by hand?”) while “big hints” point the candidate to the correct algorithm (i.e., “what would happen if you used data structure X instead of data structure Y?) While “medium hints” unsurprisingly are somewhere in the middle (for example, they might indicate the area in which you want to make a change without giving away the specific change, such as “is there another data structure you could use instead?”).</li>
+<li>If they’re stuck, help them talk about their thoughts so far before giving a hint. Often talking through the problem will get an candidate unstuck without any hints by acting as a “rubber duck.” Questions like “and then what?” or “what about when…?” without bringing in any new information are often sufficient to keep the ideas and words flowing.</li>
+<li>If you do have to give hints, give them one at a time, in increasing order of difficulty (i.e., start with a “small hint” and only work up to a “big hint” if the candidate is still stuck and running out of time). Leave plenty of space between the hints to give the candidate time to work with them.</li>
+<li>Keep track of the time! When time is almost up, tell your candidate you’re almost out of time, and ask them to wrap up their solution as best as possible, such as by explaining what they would do if they had more time. It helps you get a sense of how their thinking has progressed and creates a better experience for them.</li>
+</ol>
+<h2 id="question-bank">Question Bank<a class="headerlink" href="#question-bank" title="Permanent link">&para;</a></h2>
+<h3 id="1-palindromes-anagrams">1. Palindromes &amp; Anagrams<a class="headerlink" href="#1-palindromes-anagrams" title="Permanent link">&para;</a></h3>
+<h4 id="problem">Problem<a class="headerlink" href="#problem" title="Permanent link">&para;</a></h4>
+<p>A palindrome is a word, phrase, or sequence that reads the same backward as forward. An example of some palindromes are “kayak,” “racecar,” and "rats live on no evil star.” Write a function that takes a string as an input and returns a boolean indicating if the string is a palindrome (the same forwards and backwards) ignoring capitalization, spaces and characters that are not letters.</p>
+<h5 id="function-definition">Function Definition<a class="headerlink" href="#function-definition" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>is_palindrome(str) -&gt; bool
+str: string
+bool: boolean
+</code></pre></div>
+<h5 id="example-inputoutput">Example Input/Output<a class="headerlink" href="#example-inputoutput" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: "noon"
+Output 1: True
+Input 2: ""
+Output 2: True
+Input 3: "kayak"
+Output 3: True
+Input 4: "no"
+Output 4: False
+Input 5: "step on no pets"
+Output 5: True
+Input 6: "Was it a car or a cat I saw?"
+Output 6: True
+</code></pre></div>
+<h5 id="possible-solutions">Possible Solutions<a class="headerlink" href="#possible-solutions" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Simultaneously iterate over the string forwards and backwards comparing each character. If two characters do not match, return false. If the middle is reached, return true. [Complexity: Optimal; Time: O(n); Space: O(1)]</li>
+<li>Recursive. Compare the first and last characters, returning false if they do not match. Recurse on the remainder of the string until a base case (string of length zero or one) is reached. If the base case is reached, return true. [Complexity: Brute Force; Time: O(n); Space: O(n)]</li>
+<li>Reverse the string, then compare the reversed and original the same. Return true if they are the same, false otherwise. [Complexity: Brute Force; Time: O(n); Space: O(n)]</li>
+</ol>
+<p><em>If the candidate codes any of these solutions, move on to follow-up 1.</em></p>
+<p><em>Note: In both the original problem and both follow-ups, boolean flags in the solution can be substituted with an integer count. Additionally, completely correct solutions will ignore characters that are not letters and lowercase (or uppercase) all letters. This is left out of the problem statement to ensure candidates ask identify edge cases and ask appropriate clarifying questions instead of making assumptions. If original solutions do not account for this, remind candidates of this requirement and see if they can update their solution. If they do not make progress in five minutes, this is the one instance in which it is okay to move on without the candidate completing the problem.</em></p>
+<h4 id="follow-up-1">Follow-Up 1<a class="headerlink" href="#follow-up-1" title="Permanent link">&para;</a></h4>
+<p>An anagram is a word or phrase formed by rearranging the letters of another. An example of some anagrams are “act” and “cat”; “auctioned” and “cautioned”; and “a gentleman” and “elegant man.” Write a function that takes two strings as input and returns a boolean indicating if the strings are anagrams (the same letters in different orders).</p>
+<h5 id="function-definition_1">Function Definition<a class="headerlink" href="#function-definition_1" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>are_anagrams(str1, str2) -&gt; bool
+str1, str2: string
+bool: boolean
+</code></pre></div>
+<h5 id="example-inputoutput_1">Example Input/Output<a class="headerlink" href="#example-inputoutput_1" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: "noon", "no"
+Output 1: False
+Input 2: "on", "no"
+Output 2: True
+Input 3: "state", "taste"
+Output 3: True
+Input 4: "teen", "ten"
+Output 4: False
+Input 5: "the eyes", "they see"
+Output 5: True
+Input 6: "William Shakespeare", "I'll make a wise phrase"
+Output 6: True
+</code></pre></div>
+<h5 id="possible-solutions_1">Possible Solutions<a class="headerlink" href="#possible-solutions_1" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Make a map of character to integer. Iterate through string 1, incrementing the count for each character. Iterate through string 2, decrementing the count for each character. Iterate over the map; return false if any value is not 0. Return true if the end is reached. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Sort both strings, then compare the sorted strings. Return true if they are the same, false otherwise. [Complexity: Good; Time: O(nlogn); Space: O(n)]</li>
+<li>Generate every possible permutation of string 1 and compare each to string 2. Return true if they are the same. If all permutations are checked, return false. [Complexity: Terrible; Time: O(n!), Space: O(n!)]</li>
+</ol>
+<p><em>If the candidate codes solution (1) or (2) move on to follow-up 2. If the candidate proposes solution (3), guide them towards brainstorming other solutions rather than coding it. Do not move on until a viable solution has been coded.</em></p>
+<h4 id="follow-up-2">Follow-Up 2<a class="headerlink" href="#follow-up-2" title="Permanent link">&para;</a></h4>
+<p>Now combining the ideas from the previous two parts, the final goal is to determine if a string can be rearranged to form a palindrome. Write a function that takes a string as input and returns a boolean indicating if it is an anagram of a palindrome. <em>Note: if the candidate needs a hint, suggest that rather than trying to use the functions in the previous part, think about what makes a string a palindrome and what makes two strings anagrams.</em></p>
+<h5 id="function-definition_2">Function Definition<a class="headerlink" href="#function-definition_2" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>is_palindrome_anagram(str) -&gt; bool
+str: string
+bool: boolean
+</code></pre></div>
+<h5 id="example-inputoutput_2">Example Input/Output<a class="headerlink" href="#example-inputoutput_2" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: "noon"
+Output 1: True
+Input 2: ""
+Output 2: True
+Input 3: "dada"
+Output 3: True
+Input 4: "no"
+Output 4: False
+</code></pre></div>
+<h5 id="possible-solutions_2">Possible Solutions<a class="headerlink" href="#possible-solutions_2" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Create a map of counts. Iterate over the string, incrementing the count of each character. Initialize a boolean to false to keep track of whether an odd character has been seen. Iterate over the map. If the count is odd and the boolean is already true, return false. If the count is odd and the boolean is still false, update to true. Return true after completing the loop. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Create a set of characters. Iterate over the string. For each character, if the character is in the set, remove it, and if it is not in the set, add it. Return true if the set is of size 0 or 1, false otherwise. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Initialize a count array of characters (index is integer of character). Iterate over the string and increment the count of every character. Initialize a boolean to false to keep track of whether an odd character has been seen. Iterate over the array. If the count is odd and the boolean is already true, return false. If the count is odd and he boolean is still false, update to true. Return true after completing the loop. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Sort the string. Initialize a boolean to false to keep track of whether an odd character has been seen. Iterate over the sorted string, counting occurrences of each character. If the count is odd and the boolean is already true, return false. If the count is odd and the boolean is still false, update to true. Return true after completing the loop. [Complexity: Good, Time: O(nlogn); Space: O(n)]</li>
+<li>Use two nested loops to iterate over the string. Initialize a boolean to false to keep track of whether an odd character has been seen. For each character, count the number of times the character appears. If odd and the boolean is already true, return false. If the count is odd and the boolean is still false, update to true. Return true after completing both nested loops. [Complexity: Brute Force; Time: O(n^2); Space: O(1)]</li>
+<li>Generate every possible permutation of the string and check whether it is a palindrome. Return true if one is. If all permutations are checked, return false. [Complexity: Terrible; Time: O(n!), Space: O(n!)]</li>
+</ol>
+<p><em>If the candidate codes solution (1), (2), (3), or (4), move on to another question, time permitting. If the candidate codes solution (4), see if you can guide them towards (1), (2), or (3) before moving on. However, if they do not make progress after ~5 minutes, move on. If the candidate proposes solution (5), guide them towards brainstorming other solutions rather than coding it. Do not move on until a viable solution has been coded.</em></p>
+<h3 id="2-special-array-elements">2. Special Array Elements<a class="headerlink" href="#2-special-array-elements" title="Permanent link">&para;</a></h3>
+<h4 id="problem_1">Problem<a class="headerlink" href="#problem_1" title="Permanent link">&para;</a></h4>
+<p>Determine if an array has a majority element (element that appears &gt; n/2 times, where n is the length of the array).</p>
+<h5 id="function-definition_3">Function Definition<a class="headerlink" href="#function-definition_3" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>has_majority_element(arr) -&gt; int
+arr: array of integers
+int: integer element in arr
+</code></pre></div>
+<h5 id="example-inputoutput_3">Example Input/Output<a class="headerlink" href="#example-inputoutput_3" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [2, 4, 2, 5, 2, 2, 4]
+Output 1: 2
+Input 2: [2, 2, 5, 2, 2, 4]
+Output 2: 2
+Input 3: [4, 2, 5, 2, 2, 4, 3]
+Output 3: NULL
+Input 4: [2, 4, 5, 3, 2, 4]
+Output 4: NULL
+</code></pre></div>
+<h5 id="possible-solutions_3">Possible Solutions<a class="headerlink" href="#possible-solutions_3" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Create a map of characters to counts. Increment the counts iterating through the array. Check if any of the counts exceed n/2; if so, a majority element has been found. This solution may be improved by returning early if incrementing a count causes it to cross the n/2 threshold. It can even be further optimized by returning NULL early if there are not sufficient elements remaining to find a majority element. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Sort the array. Iterate through the sorted array, counting each character. If a count is greater than n/2, a majority element has been found. [Complexity: Good; Time: O(nlogn); Space: O(n)]</li>
+<li>Iterate over the array. For each character, use a nested loop to iterate over the array, counting the number of occurrences. If the number of occurrences is greater than n/2, a majority element has been found. This solution may be improved somewhat by only checking characters in the first half of the array. [Complexity: Brute Force; Time: O(n^2); Space: O(1)]</li>
+</ol>
+<p><em>If the candidate codes solution (1) or (2), move on to follow-up 1. If the candidate codes solution (3), see if you can guide them towards (1) or (2) before moving on. However, if they do not make progress after ~5 minutes, move on.</em></p>
+<h4 id="follow-up-1_1">Follow-Up 1<a class="headerlink" href="#follow-up-1_1" title="Permanent link">&para;</a></h4>
+<p>Determine if an array has a plurality element (element that appears more than any other element).</p>
+<h5 id="function-definition_4">Function Definition<a class="headerlink" href="#function-definition_4" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>has_plurality_element(arr) -&gt; int
+arr: array of integers
+int: integer element in arr
+</code></pre></div>
+<h5 id="example-inputoutput_4">Example Input/Output<a class="headerlink" href="#example-inputoutput_4" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [2, 4, 2, 5, 2, 3, 4]
+Output 1: 2
+Input 2: [2, 4, 1, 5, 2, 3, 4]
+Output 2: NULL
+Input 3: [4, 2, 5, 2, 2, 4]
+Output 3: 2
+Input 4: [4, 2, 4, 2, 2, 4]
+Output 4: NULL
+</code></pre></div>
+<h5 id="possible-solutions_4">Possible Solutions<a class="headerlink" href="#possible-solutions_4" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Iterate over the array to create a map of elements to counts. Iterate over the map, keeping track of the maximum and a boolean to indicate whether it is unique. At the end, the unique boolean indicates whether a plurality element has been found. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Sort the array and keep track of a maximum count and a unique max boolean. Iterate through the sorted array, counting each character. If the number of occurrences is greater than the current max, update the maximum and set the unique max to true. If the number of occurrences is the same as the current max, set the unique max to false. At the end, the unique max indicates whether a plurality element has been found. [Complexity: Good; Time: O(n*logn); Space: O(n)]</li>
+<li>Iterate over the array and keep track of a maximum count and a unique max boolean. For each character, use a nested loop to iterate over the array, counting the number of occurrences. If the number of occurrences is greater than the current max, update the maximum and set the unique max to true. If the number of occurrences is the same as the current max, set the unique max to true. At the end, the unique max indicates whether a plurality element has been found. [Complexity: Brute Force; Time: O(n^2); Space: O(1)]</li>
+</ol>
+<p><em>If the candidate codes solution (1) or (2), move on to follow-up 2. If the candidate codes solution (3), see if you can guide them towards (1) or (2) before moving on. However, if they do not make progress after ~5 minutes, move on.</em></p>
+<h4 id="follow-up-2_1">Follow-Up 2<a class="headerlink" href="#follow-up-2_1" title="Permanent link">&para;</a></h4>
+<p>Determine if an array has an equilibrium index (index where the sum of all elements to the left equals the sum of all elements to the right).</p>
+<h5 id="function-definition_5">Function Definition<a class="headerlink" href="#function-definition_5" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>has_equilibrium_index(arr) -&gt; int
+arr: array of integers
+int: integer index in arr
+</code></pre></div>
+<h5 id="example-inputoutput_5">Example Input/Output<a class="headerlink" href="#example-inputoutput_5" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [1, 4, 2, 5, 2, 3, 2]
+Output 1: 3
+Input 2: [1, 4, 2, 2, 3, 2]
+Output 2: NULL
+Input 3: [8, 2, 3, 1, 5, 4]
+Output 3: 2
+Input 4: [6]
+Output 4: 0
+</code></pre></div>
+<h5 id="possible-solutions_5">Possible Solutions<a class="headerlink" href="#possible-solutions_5" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Iterate over the array left-to-right creating an array of cumulative left sums (excluding the current index). Also iterate over the array right-to-left creating an array of cumulative right sums (also excluding the current index). Iterate over the indices once more, checking both the left and right sum arrays. Return true if the left and right sums are equal. Return false if the end is reached. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Iterate over the indices of the array. For each index, use a nested loop to sum the elements to the left and right of the index. Return the index if they are equal. Return NULL if the end of the nested loops are reached. [Complexity: Brute Force; Time: O(n^2); Space: O(1)]</li>
+</ol>
+<p><em>If the candidate codes solution (1), move on to another question, time permitting. If the candidate codes solution (2), see if you can guide them towards (1) before moving on. However, if they do not make progress after ~5 minutes, move on.</em></p>
+<h3 id="3-array-arrangement">3. Array Arrangement<a class="headerlink" href="#3-array-arrangement" title="Permanent link">&para;</a></h3>
+<h4 id="problem_2">Problem<a class="headerlink" href="#problem_2" title="Permanent link">&para;</a></h4>
+<p>Write a partition function that rearranges an array containing odd and even numbers in-place (without creating a new array or sorting the array) so that all odd numbers come before all the even numbers. If the candidate uses a language that does not support pass-by-reference, have them print the resulting array rather than returning it to keep space at O(1).</p>
+<h5 id="function-definition_6">Function Definition<a class="headerlink" href="#function-definition_6" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>parition_ints(arr) -&gt; void
+arr: array of integers
+</code></pre></div>
+<h5 id="example-inputoutput_6">Example Input/Output<a class="headerlink" href="#example-inputoutput_6" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [1, 4, -2, 3, 9, 8, -6, 0]
+Output 1: [1, 9 ,3, -2, 4, 8, -6, 0]
+Input 2: [8, -8, 12, 10, 0]
+Output 2: [8, -8, 12, 10, 0]
+</code></pre></div>
+<h5 id="possible-solutions_6">Possible Solutions<a class="headerlink" href="#possible-solutions_6" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Iterate forwards and backwards through the array simultaneously. Stop the forwards iteration when an even number is reached and the backwards iteration when an odd number is reached. Swap them. Advance both pointers. Continue until the forwards and backwards indices cross. [Complexity: Optimal; Time: O(n); Space: O(1)]</li>
+<li>Iterate through the array. At each index, if it contains an even element, iterate through the rest of the array until an odd element is found and swap them. When no element to swap with is found or the iteration ends the process is complete. [Complexity: Brute Force; Time: O(n^2); Space: O(1)]</li>
+<li>Iterate through the array. At each index, if it contains an even element, save that element in a temp value and shift all elements to the right of it one to the left. Insert that element into the end slot in the array [Complexity: Brute Force; Time: O(n^2); Space: O(1)]</li>
+</ol>
+<p><em>If the candidate proposes the solution in which a new array is created and first the even numbers are copied and then the odds, remind them of the in-place requirement and guide them towards one of the other solutions before they code. If the candidate codes solution (1), move on to follow-up 1. If the candidate codes solutions (2) or (3) see if you can guide them towards (1) before moving on. However, if they do not make progress after ~5 minutes, move on.</em></p>
+<h4 id="follow-up-1_2">Follow-Up 1<a class="headerlink" href="#follow-up-1_2" title="Permanent link">&para;</a></h4>
+<p>Now suppose we want to separately partition zeros. In the partitioned array, zeros should be between the odd and the other even integers. Again, if the candidate uses a language that does not support pass-by-reference, have them print the resulting array rather than returning it to keep space at O(1).</p>
+<h5 id="function-definition_7">Function Definition<a class="headerlink" href="#function-definition_7" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>partition_ints(arr) -&gt; void
+arr: array of integers
+</code></pre></div>
+<h5 id="example-inputoutput_7">Example Input/Output<a class="headerlink" href="#example-inputoutput_7" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [1, 4, -2, 3, 9, 8, -6, 0]
+Output 1: [1, 9, 3, 0, -2, 8, -6, 4]
+Input 2: [8, -8, 12, 10, 0]
+Output 2: [0, -8, 12, 10, 8]
+</code></pre></div>
+<h5 id="possible-solutions_7">Possible Solutions<a class="headerlink" href="#possible-solutions_7" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Iterate through the array and count the even and odd integers. Iterate forwards and backwards through the array simultaneously. Stop the forwards iteration when an even number or 0 is reached and the backwards iteration when an odd number or 0 is reached. Swap them. Advance the forwards pointer if it is on an odd number or the index is greater than or equal to the number of odd numbers; advance the backwards pointer if it is on an even number or the index is less than the total elements minus the even elements. Continue until the forwards iteration until and backwards indices cross. [Complexity: Optimal; Time: O(n); Space: O(1)]</li>
+<li>Use two passes. First partition the array into evens and odds or zeros. Iterate forwards and backwards through the array simultaneously. Stop the forwards iteration when an even number is reached and the backwards iteration when an odd number or a zero is reached. Swap them. Advance both pointers. Continue until the forwards and backwards indices cross. Do a second pass, iterating forwards and backwards on the subarray containing odd numbers and zeros (0 through the final position of the backwards pointer) simultaneously. Stop the forwards iteration when a zero is reached and the backwards iteration when an odd number is reached. Swap them. Advance both pointers. [Complexity: Optimal; Time: O(n); Space: O(1)] <em>Note: of course it is possible to instead first partition the array the other way, into evens or zeros and odds.</em></li>
+<li>The brute force swapping solution (2) from the original problem, swapping even and zero elements for odds. Use a flag to indicate whether odd numbers remain. When no more odd numbers remain, continue, swapping evens for zeros. Continue until no more zeros are found or the iteration completes. [Complexity: Brute Force; Time: O(n^2); Space: O(1)]</li>
+<li>The brute force shifting solution (3) from the original problem. Use a flag to indicate whether odd numbers remain. Shift when a zero or an even element is encountered. When no more odd numbers remain, shift when an even element is encountered. [Complexity: Brute Force; Time: O(n^2); Space: O(1)]</li>
+</ol>
+<p><em>If the candidate proposes the solution in which a new array is created and first the negative numbers are copied, then the zeros, then the odds, remind them of the in-place requirement and guide them towards one of the other solutions before they code. If the candidate codes solution (1) or (2), move on to follow-up 2. If the candidate codes solutions (3) or (4) see if you can guide them towards (1) or (2) before moving on. However, if they do not make progress after ~5 minutes, move on.</em></p>
+<h4 id="follow-up-2_2">Follow-Up 2<a class="headerlink" href="#follow-up-2_2" title="Permanent link">&para;</a></h4>
+<p>Now suppose the array only contains 0s, 1s, and 2s.</p>
+<h5 id="function-definition_8">Function Definition<a class="headerlink" href="#function-definition_8" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>partition_ints(arr) -&gt; int
+arr: array of integers
+int: integer index in arr
+</code></pre></div>
+<h5 id="example-inputoutput_8">Example Input/Output<a class="headerlink" href="#example-inputoutput_8" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [0, 0, 1, 1, 1, 2]
+Output 1: [1, 1, 1, 0, 0, 2]
+Input 2: [2, 0, 0, 0, 0, 0]
+Output 2: [0, 0, 0, 0, 0, 2]
+</code></pre></div>
+<h5 id="possible-solutions_8">Possible Solutions<a class="headerlink" href="#possible-solutions_8" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Count each element and store the results in a map. Initialize a sorted constant array of the three possible elements. Initialize an index counter to zero. Iterate over the constant array, looking up the count of each element in the map and overwriting the appropriate number of indices in the original array with the element from the constant array. [Complexity: Optimal; Time: O(n); Space: O(1)]</li>
+<li>Count each element and store the results in variables. Initialize an index counter to zero. In the correct order, go through the variables and overwrite the appropriate number of indices in the original array with the element the variable represents. [Complexity: Optimal; Time: O(n); Space: O(1)] <em>Note: while the complexity of this solution is the same as (1), it is much messier as it uses three variables instead of a data structure and relies on the knowledge of “magic numbers.”</em></li>
+<li>Any of the solutions from follow-up (1) will also work. [Complexity: Varies]</li>
+</ol>
+<p><em>If the candidate proposes the solution in which a new array is created and first the negative numbers are copied, then the zeros, then the odds, remind them of the in-place requirement and guide them towards one of the other solutions before they code. If the candidate proposes (3), this is good insight but ask if it can be improved upon by using the additional constraints in the follow-up if they do not suggest doing so themselves. Do not move on until the candidate codes solution (1) or (2). If the candidate codes solution (2), see if you can guide them towards solution (1) before moving on to another question. However, if they do not make progress after ~5 minutes, move on.</em></p>
+<h3 id="4-array-arithmetic">4. Array Arithmetic<a class="headerlink" href="#4-array-arithmetic" title="Permanent link">&para;</a></h3>
+<h4 id="problem_3">Problem<a class="headerlink" href="#problem_3" title="Permanent link">&para;</a></h4>
+<p>Given an array of integers, create an array where each index has the sum of all the elements in the original array except for the element at that index.</p>
+<h5 id="function-definition_9">Function Definition<a class="headerlink" href="#function-definition_9" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>other_sum_array(arr) -&gt; sum_arr
+arr: array of integers
+sum_arr: array of integers
+</code></pre></div>
+<h5 id="example-inputoutput_9">Example Input/Output<a class="headerlink" href="#example-inputoutput_9" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [0, 1, 2, 3, 4, 5]
+Output 1: [15, 14, 13, 12, 11, 10]
+Input 2: [8]
+Output 3: [0]
+</code></pre></div>
+<h5 id="possible-solutions_9">Possible Solutions<a class="headerlink" href="#possible-solutions_9" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Iterate over the array and sum the elements. Iterate again and for each element subtract that element from the sum. Add the difference to the results array. [Complexity: Optimal; Time: O(n); Space: O(1)]</li>
+<li>Iterate over the array forwards and backwards to create partial forward sum and backward sum arrays such that each index contains the sum of all the elements before but not including that index. Iterate over the indices once more. The result for each index is the sum of partial forward sum and partial backward sum for that index. [Complexity: Almost Optimal; Time: O(n); Space: O(n)]</li>
+<li>Use a nested loop to iterate over the indices. For each index, iterate over the array, summing all the elements except the one at that index. [Complexity: Brute Force; Time: O(n^2); Space: O(n)]</li>
+</ol>
+<p><em>If the candidate codes solution (1) or (2), move on to follow-up 1. If the candidate codes solution (3), see if you can guide them towards (1) or (2) before moving on. However, if they do not make progress after ~5 minutes, move on.</em></p>
+<h4 id="follow-up-1_3">Follow-Up 1<a class="headerlink" href="#follow-up-1_3" title="Permanent link">&para;</a></h4>
+<p>Now create an array where each index has the product of all the elements in the original array except for the element at that index.</p>
+<h5 id="function-definition_10">Function Definition<a class="headerlink" href="#function-definition_10" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>other_product_array(arr) -&gt; prod_arr
+arr: array of integers
+prod_arr: array of integers
+</code></pre></div>
+<h5 id="example-inputoutput_10">Example Input/Output<a class="headerlink" href="#example-inputoutput_10" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [0, 1, 2, 3, 4, 5]
+Output 1: [120, 0, 0, 0, 0, 0]
+Input 2:  [1, 2, 3, 4, 5]
+Output 2: [120, 60, 40, 30, 24]
+Input 2:  [0, 0, 1, 2, 3, 4, 5]
+Output 2: [0, 0, 0, 0, 0, 0, 0]
+</code></pre></div>
+<h5 id="possible-solutions_10">Possible Solutions<a class="headerlink" href="#possible-solutions_10" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Iterate over the array and multiply the elements. Iterate again and for each element divide the product by that element. The thing that is different, and more challenging, than in the original problem is handling the 0-element case. Keep a set of zero element indices. Do not multiply zero elements. If the final set size is one, set that index to the product and every other index to zero. If the set size is zero, set all indices to zero. Add the difference to the results array. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Iterate over the array forwards and backwards to create partial forward product and backward product arrays such that each index contains the product of all the elements before but not including that index. Iterate over the indices once more. The result for each index is the product of partial forward product and partial backward product for that index. [Complexity: Optimal; Time: O(n); Space: O(n)]</li>
+<li>Use a nested loop to iterate over the indices. For each index, iterate over the array, multiplying all the elements except the one at that index. [Complexity: Brute Force; Time: O(n^2); Space: O(n)]</li>
+</ol>
+<p><em>If the candidate codes solution (1) or (2), move on to follow-up 1. If the candidate codes solution (3), see if you can guide them towards (1) or (2) before moving on. However, if they do not make progress after ~5 minutes, move on.</em></p>
+<h4 id="follow-up-2_3">Follow-Up 2<a class="headerlink" href="#follow-up-2_3" title="Permanent link">&para;</a></h4>
+<p>Now given a 2D array (matrix), create a 2D array (matrix) where each index i,j is the sum of all the indices in the rectangle from 0,0 (upper left corner) to i,j (lower right corner). <em>Note: this problem can be hard to understand from just words. Show the example and explain how the output is derived from the input.</em></p>
+<h5 id="function-definition_11">Function Definition<a class="headerlink" href="#function-definition_11" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>sum_matrix(mat) -&gt; sum_mat
+mat: 2D array of integers
+sum_mat: 2D array of integers
+</code></pre></div>
+<h5 id="example-inputoutput_11">Example Input/Output<a class="headerlink" href="#example-inputoutput_11" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>Input 1: [1, 2, 3
+          4, 5, 6
+          7, 8, 9]
+Output 1: [1, 3, 6
+           5, 12, 21
+           12, 27, 45]
+</code></pre></div>
+<h5 id="possible-solutions_11">Possible Solutions<a class="headerlink" href="#possible-solutions_11" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Iterate over the first row and the first column. Set (r, 0) in the result array to the sum of (r-1, 0) in the result array and (r, 0) in the original array; set (0, c) in the result array to the sum of (0, c-1) in the result array and (0,c) in the original array. Iterate from (1,1), setting (r, c) in the result array to the sum of (r-1, c) + (r, c-1) - (r-1, c-1) in the result array and (r, c) in the original array. [Complexity: Optimal; Time: O(n)/O(r*c); Space: O(1)]</li>
+<li>For each row-column index, iterate over the matrix up to that row and column summing the elements. Set that index in the result array to this sum. [Complexity: Brute Force; Time: O(n^2)/O(r^2*c^2); Space: O(1)]</li>
+</ol>
+<p><em>If the candidate codes either solution, move on to another question, time permitting, unless the candidate proposes improving solution (2) to solution (1).</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../technical-sessions/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Licensed under <a href="https://github.com/uber/uber-career-prep-playbook/blob/main/LICENCE.md" target="_blank">Creative Commons Attribution 4.0 International</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/uber/uber-career-prep-playbook" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
