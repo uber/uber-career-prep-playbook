@@ -58,6 +58,23 @@ Resources related to the program's educational content.
 
 ---
 
+## Technical Resources
+
+Materials for the technical side of the program: cohort selection interviews, workshop decks, practice assignments and mock interviews.
+
+| Document | Link |
+|----------|------|
+| Technical Resources Overview | [View](resources/technical/index.md) |
+| Cohort Selection Technical Interviews | [View](resources/technical/cohort-selection.md) |
+| Technical Session Decks | [View](resources/technical/technical-sessions/index.md) |
+| Practice Assignments | [View](resources/technical/practice-assignments.md) |
+| Mock Interviews | [View](resources/technical/mock-interviews.md) |
+| Peer Mock Interviews | [View](resources/technical/peer-mock-interviews.md) |
+| Practice Assignment Scorecards | [View](resources/technical/practice-assignment-scorecards.md) |
+| Mock Interview Scorecards | [View](resources/technical/mock-interview-scorecards.md) |
+
+---
+
 ## Role Descriptions
 
 Detailed outlines of responsibilities and qualifications for each program role.

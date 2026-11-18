@@ -184,8 +184,8 @@ Ongoing Task
 
 ## Resources
 
-- [Technical resources:](https://drive.google.com/drive/folders/1nikQ7YBCL3fuhMacp7B0cSpNdJON8cWC?usp=drive_link)
-    - [Homework Resources](https://drive.google.com/drive/u/0/folders/1D3Xs49gzr1fhcqh90Y4ZzaUNGN5VLQZn) (assignments, solution guides, feedback forms)
-    - [Technical Session Decks](https://drive.google.com/drive/u/0/folders/1qZ1RTzQy_sm21F00K27AYkSEIeDRfhf-)
-    - [Mock Interview Resources](https://drive.google.com/drive/u/0/folders/1xOVUMpkMxSJj-P4R2ano5ZcA_4uHXdqu) (mock interview questions, feedback forms, training deck)
+- [Technical resources:](../technical/index.md)
+    - [Practice Assignments](../technical/practice-assignments.md) (assignments, solution guides, [scorecards](../technical/practice-assignment-scorecards.md))
+    - [Technical Session Decks](../technical/technical-sessions/index.md)
+    - [Mock Interview Resources](../technical/mock-interviews.md) (mock interview questions, interviewer tips, [scorecards](../technical/mock-interview-scorecards.md); also [peer mock interviews](../technical/peer-mock-interviews.md))
     - [Technical Mentor Guide](../technical-mentor-guide/index.md)
