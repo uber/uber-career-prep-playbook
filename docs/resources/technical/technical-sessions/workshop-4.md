@@ -5,7 +5,7 @@ Slides for technical workshop 4.
 [:material-file-pdf-box: Download PDF](ucp-workshop-4-10-percent-and-studying-techniques.pdf){ .md-button }
 [:material-microsoft-powerpoint: Download PowerPoint (editable)](ucp-workshop-4-10-percent-and-studying-techniques.pptx){ .md-button .md-button--primary }
 
-<iframe src="ucp-workshop-4-10-percent-and-studying-techniques.pdf" width="100%" height="560" style="border: 1px solid var(--md-default-fg-color--lightest);" title="Workshop 4 slides preview"></iframe>
+<iframe src="../ucp-workshop-4-10-percent-and-studying-techniques.pdf" width="100%" height="560" style="border: 1px solid var(--md-default-fg-color--lightest);" title="Workshop 4 slides preview"></iframe>
 
 ## What it covers
 

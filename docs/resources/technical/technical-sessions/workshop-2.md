@@ -5,7 +5,7 @@ Slides for technical workshop 2.
 [:material-file-pdf-box: Download PDF](ucp-workshop-2-linked-list-and-tree.pdf){ .md-button }
 [:material-microsoft-powerpoint: Download PowerPoint (editable)](ucp-workshop-2-linked-list-and-tree.pptx){ .md-button .md-button--primary }
 
-<iframe src="ucp-workshop-2-linked-list-and-tree.pdf" width="100%" height="560" style="border: 1px solid var(--md-default-fg-color--lightest);" title="Workshop 2 slides preview"></iframe>
+<iframe src="../ucp-workshop-2-linked-list-and-tree.pdf" width="100%" height="560" style="border: 1px solid var(--md-default-fg-color--lightest);" title="Workshop 2 slides preview"></iframe>
 
 ## What it covers
 

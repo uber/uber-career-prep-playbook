@@ -5,7 +5,7 @@ Slides for technical workshop 1.
 [:material-file-pdf-box: Download PDF](ucp-workshop-1-array-and-string.pdf){ .md-button }
 [:material-microsoft-powerpoint: Download PowerPoint (editable)](ucp-workshop-1-array-and-string.pptx){ .md-button .md-button--primary }
 
-<iframe src="ucp-workshop-1-array-and-string.pdf" width="100%" height="560" style="border: 1px solid var(--md-default-fg-color--lightest);" title="Workshop 1 slides preview"></iframe>
+<iframe src="../ucp-workshop-1-array-and-string.pdf" width="100%" height="560" style="border: 1px solid var(--md-default-fg-color--lightest);" title="Workshop 1 slides preview"></iframe>
 
 ## What it covers
 
