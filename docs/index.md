@@ -41,3 +41,15 @@ Uber Career Prep (UCP) is an unpaid, virtual fellowship program for undergraduat
 - Invitation to interview for a paid internship at the end of the cohort
 
 > A key driver of this program's success is that it's run by the Engineering Team — for future engineers.
+
+## Acknowledgements
+
+This playbook was authored by the Uber Career Prep program team:
+
+- Jael Zambrano
+- Emma Ziegellaub Eichler
+- Anne Marie Freeman
+- [Julia Alberts](https://www.linkedin.com/in/juliamdnalberts/)
+- [Zach Singleton](https://www.linkedin.com/in/zsingleton)
+
+Thank you to all the Uber engineers, mentors, recruiters, and volunteers who have contributed to the Career Prep program across every cohort.
