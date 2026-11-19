@@ -31,7 +31,7 @@ Documents detailing program milestones, execution steps, and schedules.
 |----------|------|
 | Program Execution Checklist | [View](resources/timelines-and-checklists/program-execution-checklist.md) |
 | Program Timeline Overview | [View](resources/timelines-and-checklists/program-timeline-overview.md) |
-| Cohort Tracker | [View](https://drive.google.com/open?id=1IEYJ9hTatvv6veWRyeh2b_Ah_7l2SHboHTfMw0fZLHc) |
+| Cohort Tracker | [Download (.xlsx)](resources/trackers/ucp-cohort-tracker.xlsx) |
 
 ---
 
